@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:candy_woods_log"
+    }
+  ],
+  "result": {
+    "item": "the_wonderland:candy_woods_planks",
+    "count": 4
+  }
+}

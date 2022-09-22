@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "the_wonderland:candy_woods_wood",
+    "the_wonderland:candy_woods_log",
+    "the_wonderland:candy_woods_planks",
+    "the_wonderland:ghost_wood",
+    "the_wonderland:ghost_log",
+    "the_wonderland:ghost_planks"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "the_wonderland:blocks/souldirt",
+    "top": "the_wonderland:blocks/soulgrasstop",
+    "side": "the_wonderland:blocks/souldirt",
+    "overlay": "the_wonderland:blocks/soulgrassside",
+    "particle": "the_wonderland:blocks/souldirt"
+  }
+}

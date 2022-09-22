@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_wonderland:blocks/candy_woods_log_top",
+    "up": "the_wonderland:blocks/candy_woods_log_top",
+    "north": "the_wonderland:blocks/candy_woods_log_side",
+    "east": "the_wonderland:blocks/candy_woods_log_side",
+    "south": "the_wonderland:blocks/candy_woods_log_side",
+    "west": "the_wonderland:blocks/candy_woods_log_side",
+    "particle": "the_wonderland:blocks/candy_woods_log_top"
+  }
+}

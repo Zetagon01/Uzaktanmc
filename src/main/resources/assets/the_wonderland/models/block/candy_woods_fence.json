@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "the_wonderland:blocks/candy_woods_planks",
+    "particle": "the_wonderland:blocks/candy_woods_planks"
+  }
+}

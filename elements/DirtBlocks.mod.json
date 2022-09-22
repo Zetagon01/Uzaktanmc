@@ -1,0 +1,29 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Candydirt"
+      },
+      {
+        "value": "CUSTOM:Candy"
+      },
+      {
+        "value": "CUSTOM:Souldirtt"
+      },
+      {
+        "value": "CUSTOM:SoulDirt"
+      },
+      {
+        "value": "Blocks.CRIMSON_NYLIUM"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "dirt",
+    "namespace": "minecraft"
+  }
+}

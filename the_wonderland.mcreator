@@ -1,0 +1,739 @@
+{
+  "mod_elements": [
+    {
+      "name": "Candy",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_grass_block"
+    },
+    {
+      "name": "Candydirt",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candydirt"
+    },
+    {
+      "name": "Candyland",
+      "type": "biome",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candyland"
+    },
+    {
+      "name": "Chocolate",
+      "type": "fluid",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "Candy_WoodsWood",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_wood"
+    },
+    {
+      "name": "Candy_WoodsLog",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_log"
+    },
+    {
+      "name": "Candy_WoodsPlanks",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_planks"
+    },
+    {
+      "name": "Candy_WoodsLeaves",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_leaves"
+    },
+    {
+      "name": "Candy_WoodsStairs",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_stairs"
+    },
+    {
+      "name": "Candy_WoodsSlab",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_slab"
+    },
+    {
+      "name": "Candy_WoodsFence",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_fence"
+    },
+    {
+      "name": "Candy_WoodsFenceGate",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_fence_gate"
+    },
+    {
+      "name": "Candy_WoodsPressurePlate",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_pressure_plate"
+    },
+    {
+      "name": "Candy_WoodsButton",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_button"
+    },
+    {
+      "name": "Candy_WoodsItemsTag",
+      "type": "tag",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_items_tag"
+    },
+    {
+      "name": "Candy_WoodsWoodRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_wood_recipe"
+    },
+    {
+      "name": "Candy_WoodsPlanksRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_planks_recipe"
+    },
+    {
+      "name": "Candy_WoodsStairsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_stairs_recipe"
+    },
+    {
+      "name": "Candy_WoodsSlabRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_slab_recipe"
+    },
+    {
+      "name": "Candy_WoodsFenceRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_fence_recipe"
+    },
+    {
+      "name": "Candy_WoodsFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_fence_gate_recipe"
+    },
+    {
+      "name": "Candy_WoodsPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_pressure_plate_recipe"
+    },
+    {
+      "name": "Candy_WoodsButtonRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_button_recipe"
+    },
+    {
+      "name": "Candy_WoodsStickRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_woods_stick_recipe"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks"
+    },
+    {
+      "name": "CandyLeaves",
+      "type": "loottable",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_leaves"
+    },
+    {
+      "name": "CandyLeaf",
+      "type": "particle",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_leaf"
+    },
+    {
+      "name": "GhostWood",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_wood",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostLog",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_log",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostPlanks",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_planks",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostLeaves",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_leaves",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostStairs",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_stairs",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostSlab",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_slab",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostFence",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_fence",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostFenceGate",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_fence_gate",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostPressurePlate",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_pressure_plate",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostButton",
+      "type": "block",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_button",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostItemsTag",
+      "type": "tag",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_items_tag",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostWoodRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_wood_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostPlanksRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_planks_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostStairsRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_stairs_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostSlabRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_slab_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostFenceRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_fence_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_fence_gate_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_pressure_plate_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostButtonRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_button_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostStickRecipe",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_stick_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostStone",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_stone",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "GhostBiome",
+      "type": "biome",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost_biome",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulDirt",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_grass",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "Souldirtt",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "souldirtt",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "Soul",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "Soulisitma",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulisitma",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulBlock",
+      "type": "block",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_block",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "Soulblockyapimi",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulblockyapimi",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulaletPickaxe",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulalet_pickaxe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulaletAxe",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulalet_axe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulaletSword",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulalet_sword",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulaletShovel",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulalet_shovel",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulaletHoe",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulalet_hoe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulaletPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulalet_pickaxe_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulaletAxeRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulalet_axe_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulaletSwordRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulalet_sword_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulaletShovelRecipe",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulalet_shovel_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulaletHoeRecipe",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soulalet_hoe_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "PlankItems",
+      "type": "tag",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plank_items"
+    },
+    {
+      "name": "SoulArmorsArmor",
+      "type": "armor",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_armors_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulArmorsArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_armors_armor_helmet_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulArmorsArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_armors_armor_body_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulArmorsArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_armors_armor_leggings_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "SoulArmorsArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_armors_armor_boots_recipe",
+      "path": "~/Ghost Biome"
+    },
+    {
+      "name": "DemonicArea",
+      "type": "biome",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_area",
+      "path": "~/Demon Biome"
+    },
+    {
+      "name": "Imp",
+      "type": "livingentity",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imp",
+      "path": "~/Demon Biome"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.the_wonderland.souldirtt": "Soul Dirt Block",
+      "block.the_wonderland.ghost_wood": "Ghost Wood",
+      "item.the_wonderland.soulalet_shovel": "Soulalet Shovel",
+      "item.the_wonderland.soul_armors_armor_boots": "SoulArmors Boots",
+      "biome.the_wonderland.demonic_area": "Demonic Area",
+      "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
+      "block.the_wonderland.soul_block": "Soul Block",
+      "block.the_wonderland.ghost_fence": "Ghost Fence",
+      "item.the_wonderland.soulalet_axe": "Soulalet Axe",
+      "block.the_wonderland.candy_woods_stairs": "Candy_Woods Stairs",
+      "item.the_wonderland.soul_armors_armor_chestplate": "SoulArmors Chestplate",
+      "biome.the_wonderland.ghost_biome": "Ghost Biome",
+      "block.the_wonderland.candy_woods_button": "Candy_Woods Button",
+      "block.the_wonderland.ghost_log": "Ghost Log",
+      "item.the_wonderland.chocolate_bucket": "Chocolate Bucket",
+      "block.the_wonderland.candy_woods_planks": "Candy_Woods Planks",
+      "block.the_wonderland.candy_leaves": "Candy Leaves",
+      "item.the_wonderland.soulalet_sword": "Soulalet Sword",
+      "block.the_wonderland.ghost_pressure_plate": "Ghost Pressure Plate",
+      "block.the_wonderland.ghost_button": "Ghost Button",
+      "block.the_wonderland.soul_grass": "Soul Grass Block",
+      "item.the_wonderland.soulalet_hoe": "Soulalet Hoe",
+      "block.the_wonderland.ghost_stairs": "Ghost Stairs",
+      "fluid.the_wonderland.chocolate": "Chocolate",
+      "block.the_wonderland.ghost_fence_gate": "Ghost Fence Gate",
+      "entity.the_wonderland.imp": "Imp",
+      "item.the_wonderland.soul_armors_armor_helmet": "SoulArmors Helmet",
+      "block.the_wonderland.ghost_planks": "Ghost Planks",
+      "item.the_wonderland.imp_spawn_egg": "Imp Spawn Egg",
+      "biome.the_wonderland.candyland": "Candyland",
+      "block.the_wonderland.candydirt": "Candy Dirt Block",
+      "block.the_wonderland.chocolate": "Chocolate",
+      "item.the_wonderland.soulalet_pickaxe": "Soulalet Pickaxe",
+      "block.the_wonderland.candy_woods_fence_gate": "Candy_Woods Fence Gate",
+      "block.the_wonderland.ghost_leaves": "Ghost Leaves",
+      "item.the_wonderland.soul": "Soul",
+      "block.the_wonderland.candy_woods_log": "Candy_Woods Log",
+      "block.the_wonderland.candy_grass_block": "Candy Grass Block",
+      "block.the_wonderland.candy_woods_fence": "Candy_Woods Fence",
+      "block.the_wonderland.ghost_slab": "Ghost Slab",
+      "block.the_wonderland.candy_woods_wood": "Candy_Woods Wood",
+      "block.the_wonderland.candy_woods_pressure_plate": "Candy_Woods Pressure Plate",
+      "block.the_wonderland.ghost_stone": "Ghost Stone",
+      "item.the_wonderland.soul_armors_armor_leggings": "SoulArmors Leggings"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Ghost Biome",
+        "children": []
+      },
+      {
+        "name": "Demon Biome",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "the_wonderland",
+    "modName": "The Wonderland",
+    "version": "1.0.0",
+    "author": "Kerim, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.thewonderland",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

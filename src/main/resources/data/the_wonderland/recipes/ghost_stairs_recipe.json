@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_wonderland:ghost_planks"
+    },
+    "3": {
+      "item": "the_wonderland:ghost_planks"
+    },
+    "4": {
+      "item": "the_wonderland:ghost_planks"
+    },
+    "6": {
+      "item": "the_wonderland:ghost_planks"
+    },
+    "7": {
+      "item": "the_wonderland:ghost_planks"
+    },
+    "8": {
+      "item": "the_wonderland:ghost_planks"
+    }
+  },
+  "result": {
+    "item": "the_wonderland:ghost_stairs",
+    "count": 4
+  }
+}

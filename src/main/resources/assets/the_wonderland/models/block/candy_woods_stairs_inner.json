@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "the_wonderland:blocks/candy_woods_planks",
+    "top": "the_wonderland:blocks/candy_woods_planks",
+    "side": "the_wonderland:blocks/candy_woods_planks"
+  }
+}

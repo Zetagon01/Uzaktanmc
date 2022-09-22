@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ghost_log"
+    }
+  ],
+  "result": {
+    "item": "the_wonderland:ghost_planks",
+    "count": 4
+  }
+}

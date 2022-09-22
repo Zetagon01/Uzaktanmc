@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "the_wonderland:blocks/ghost_planks",
+    "particle": "the_wonderland:blocks/ghost_planks"
+  }
+}

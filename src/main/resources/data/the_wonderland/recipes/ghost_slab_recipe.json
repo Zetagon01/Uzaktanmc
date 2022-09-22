@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "the_wonderland:ghost_planks"
+    },
+    "1": {
+      "item": "the_wonderland:ghost_planks"
+    },
+    "2": {
+      "item": "the_wonderland:ghost_planks"
+    }
+  },
+  "result": {
+    "item": "the_wonderland:ghost_slab",
+    "count": 6
+  }
+}

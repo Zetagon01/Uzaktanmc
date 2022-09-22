@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_wonderland:soul"
+    },
+    "1": {
+      "item": "the_wonderland:soul"
+    },
+    "2": {
+      "item": "the_wonderland:soul"
+    },
+    "3": {
+      "item": "the_wonderland:soul"
+    },
+    "4": {
+      "item": "the_wonderland:soul"
+    },
+    "5": {
+      "item": "the_wonderland:soul"
+    },
+    "6": {
+      "item": "the_wonderland:soul"
+    },
+    "7": {
+      "item": "the_wonderland:soul"
+    },
+    "8": {
+      "item": "the_wonderland:soul"
+    }
+  },
+  "result": {
+    "item": "the_wonderland:soul_block",
+    "count": 1
+  }
+}

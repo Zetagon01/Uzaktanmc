@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "the_wonderland:candy_woods_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "the_wonderland:candy_woods_planks"
+    },
+    "3": {
+      "item": "the_wonderland:candy_woods_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "the_wonderland:candy_woods_planks"
+    }
+  },
+  "result": {
+    "item": "the_wonderland:candy_woods_fence",
+    "count": 3
+  }
+}

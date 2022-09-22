@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_wonderland:block/ghost_slab"
+    },
+    "type=top": {
+      "model": "the_wonderland:block/ghost_slab_top"
+    },
+    "type=double": {
+      "model": "the_wonderland:block/ghost_slab_full"
+    }
+  }
+}

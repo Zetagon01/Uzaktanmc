@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_wonderland:ghost_planks"
+    }
+  ],
+  "result": {
+    "item": "the_wonderland:ghost_button",
+    "count": 1
+  }
+}

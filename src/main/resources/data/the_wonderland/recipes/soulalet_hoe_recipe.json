@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "the_wonderland:soul_block"
+    },
+    "1": {
+      "item": "the_wonderland:soul_block"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "the_wonderland:soulalet_hoe",
+    "count": 1
+  }
+}

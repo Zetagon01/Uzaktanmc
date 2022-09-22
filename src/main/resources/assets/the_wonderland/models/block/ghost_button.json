@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "the_wonderland:blocks/ghost_planks"
+  }
+}

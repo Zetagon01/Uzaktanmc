@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "the_wonderland:soul_block"
+    },
+    "1": {
+      "item": "the_wonderland:soul_block"
+    },
+    "2": {
+      "item": "the_wonderland:soul_block"
+    },
+    "3": {
+      "item": "the_wonderland:soul_block"
+    },
+    "5": {
+      "item": "the_wonderland:soul_block"
+    }
+  },
+  "result": {
+    "item": "the_wonderland:soul_armors_armor_helmet",
+    "count": 1
+  }
+}

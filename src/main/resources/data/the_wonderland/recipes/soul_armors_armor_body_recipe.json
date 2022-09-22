@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_wonderland:soul_block"
+    },
+    "2": {
+      "item": "the_wonderland:soul_block"
+    },
+    "3": {
+      "item": "the_wonderland:soul_block"
+    },
+    "4": {
+      "item": "the_wonderland:soul_block"
+    },
+    "5": {
+      "item": "the_wonderland:soul_block"
+    },
+    "6": {
+      "item": "the_wonderland:soul_block"
+    },
+    "7": {
+      "item": "the_wonderland:soul_block"
+    },
+    "8": {
+      "item": "the_wonderland:soul_block"
+    }
+  },
+  "result": {
+    "item": "the_wonderland:soul_armors_armor_chestplate",
+    "count": 1
+  }
+}

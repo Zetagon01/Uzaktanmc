@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Candy_WoodsWood"
+      },
+      {
+        "value": "CUSTOM:Candy_WoodsLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "candy_woods_log",
+    "namespace": "forge"
+  }
+}

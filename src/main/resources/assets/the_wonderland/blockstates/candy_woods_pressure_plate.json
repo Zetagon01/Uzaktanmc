@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "the_wonderland:block/candy_woods_pressure_plate"
+    },
+    "powered=true": {
+      "model": "the_wonderland:block/candy_woods_pressure_plate_down"
+    }
+  }
+}

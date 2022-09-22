@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "the_wonderland:blocks/candy_woods_planks"
+  }
+}

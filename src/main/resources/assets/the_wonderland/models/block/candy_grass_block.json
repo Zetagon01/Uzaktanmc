@@ -1,0 +1,10 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "the_wonderland:blocks/dirtcandy",
+    "top": "the_wonderland:blocks/candygrasstop",
+    "side": "the_wonderland:blocks/dirtcandy",
+    "overlay": "the_wonderland:blocks/candygrassside",
+    "particle": "the_wonderland:blocks/dirtcandy"
+  }
+}
