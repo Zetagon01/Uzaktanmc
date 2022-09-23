@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "the_wonderland:items/b8551d60ed2e5938ac4092ef089836bf"
+  }
+}

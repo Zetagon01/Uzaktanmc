@@ -21,6 +21,11 @@ import net.mcreator.thewonderland.item.SoulaletHoeItem;
 import net.mcreator.thewonderland.item.SoulaletAxeItem;
 import net.mcreator.thewonderland.item.SoulItem;
 import net.mcreator.thewonderland.item.SoulArmorsArmorItem;
+import net.mcreator.thewonderland.item.IcyToolsSwordItem;
+import net.mcreator.thewonderland.item.IcyToolsShovelItem;
+import net.mcreator.thewonderland.item.IcyToolsPickaxeItem;
+import net.mcreator.thewonderland.item.IcyToolsHoeItem;
+import net.mcreator.thewonderland.item.IcyToolsAxeItem;
 import net.mcreator.thewonderland.item.IcyItem;
 import net.mcreator.thewonderland.item.ChocolateItem;
 import net.mcreator.thewonderland.item.CandyBarItem;
@@ -83,6 +88,11 @@ public class TheWonderlandModItems {
 	public static final RegistryObject<Item> ICY = REGISTRY.register("icy", () -> new IcyItem());
 	public static final RegistryObject<Item> ICY_ORE = block(TheWonderlandModBlocks.ICY_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> ICY_BLOCK = block(TheWonderlandModBlocks.ICY_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ICY_TOOLS_PICKAXE = REGISTRY.register("icy_tools_pickaxe", () -> new IcyToolsPickaxeItem());
+	public static final RegistryObject<Item> ICY_TOOLS_AXE = REGISTRY.register("icy_tools_axe", () -> new IcyToolsAxeItem());
+	public static final RegistryObject<Item> ICY_TOOLS_SWORD = REGISTRY.register("icy_tools_sword", () -> new IcyToolsSwordItem());
+	public static final RegistryObject<Item> ICY_TOOLS_SHOVEL = REGISTRY.register("icy_tools_shovel", () -> new IcyToolsShovelItem());
+	public static final RegistryObject<Item> ICY_TOOLS_HOE = REGISTRY.register("icy_tools_hoe", () -> new IcyToolsHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
