@@ -5,10 +5,10 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.Material;
 
-public class Candy_OresBlockBlock extends Block {
+public class IcyOreBlock extends Block {
 
-	public Candy_OresBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
+	public IcyOreBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(6f, 8.705505632961241f).requiresCorrectToolForDrops());
 
 	}
 
@@ -30,7 +30,7 @@ public class Candy_OresBlockBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(TheWonderlandModItems.ICY.get()));
 	}
 
 }

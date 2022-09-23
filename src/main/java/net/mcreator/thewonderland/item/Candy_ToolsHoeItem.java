@@ -1,14 +1,7 @@
 
 package net.mcreator.thewonderland.item;
 
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.Tier;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.HoeItem;
-import net.minecraft.world.item.CreativeModeTab;
-
-import net.mcreator.thewonderland.init.TheWonderlandModItems;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 
 public class Candy_ToolsHoeItem extends HoeItem {
 	public Candy_ToolsHoeItem() {
@@ -36,6 +29,11 @@ public class Candy_ToolsHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(TheWonderlandModItems.CANDY_BAR.get()));
 			}
-		}, 0, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		},
+
+				0, -3f,
+
+				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
+
 }

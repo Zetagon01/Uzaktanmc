@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_wonderland:icy"
+    },
+    "1": {
+      "item": "the_wonderland:icy"
+    },
+    "2": {
+      "item": "the_wonderland:icy"
+    },
+    "3": {
+      "item": "the_wonderland:icy"
+    },
+    "4": {
+      "item": "the_wonderland:icy"
+    },
+    "5": {
+      "item": "the_wonderland:icy"
+    },
+    "6": {
+      "item": "the_wonderland:icy"
+    },
+    "7": {
+      "item": "the_wonderland:icy"
+    },
+    "8": {
+      "item": "the_wonderland:icy"
+    }
+  },
+  "result": {
+    "item": "the_wonderland:icy_block",
+    "count": 1
+  }
+}

@@ -696,21 +696,66 @@
       "path": "~/Ice Biome"
     },
     {
-      "name": "Candy_ToolsPickaxe",
-      "type": "tool",
-      "sortid": 81,
+      "name": "Candy_ToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "candy_tools_pickaxe",
+      "registry_name": "candy_tools_hoe_recipe",
       "path": "~/Candy Tools"
     },
     {
-      "name": "Candy_ToolsAxe",
+      "name": "Candy_ToolsHoe",
       "type": "tool",
-      "sortid": 82,
+      "sortid": 85,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "candy_tools_axe",
+      "registry_name": "candy_tools_hoe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_OresBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_ores_block_ore_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_tools_shovel_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_OresOreSmelting",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_ores_ore_smelting",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_OresOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_ores_ore_block_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_OresOre",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_ores_ore",
       "path": "~/Candy Tools"
     },
     {
@@ -732,75 +777,12 @@
       "path": "~/Candy Tools"
     },
     {
-      "name": "Candy_ToolsHoe",
-      "type": "tool",
-      "sortid": 85,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "candy_tools_hoe",
-      "path": "~/Candy Tools"
-    },
-    {
-      "name": "Candy_ToolsPickaxeRecipe",
-      "type": "recipe",
-      "sortid": 86,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "candy_tools_pickaxe_recipe",
-      "path": "~/Candy Tools"
-    },
-    {
       "name": "Candy_ToolsAxeRecipe",
       "type": "recipe",
       "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "candy_tools_axe_recipe",
-      "path": "~/Candy Tools"
-    },
-    {
-      "name": "Candy_ToolsSwordRecipe",
-      "type": "recipe",
-      "sortid": 88,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "candy_tools_sword_recipe",
-      "path": "~/Candy Tools"
-    },
-    {
-      "name": "Candy_ToolsShovelRecipe",
-      "type": "recipe",
-      "sortid": 89,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "candy_tools_shovel_recipe",
-      "path": "~/Candy Tools"
-    },
-    {
-      "name": "Candy_ToolsHoeRecipe",
-      "type": "recipe",
-      "sortid": 90,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "candy_tools_hoe_recipe",
-      "path": "~/Candy Tools"
-    },
-    {
-      "name": "Candy_OresDust",
-      "type": "item",
-      "sortid": 91,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "candy_ores_dust",
-      "path": "~/Candy Tools"
-    },
-    {
-      "name": "Candy_OresOre",
-      "type": "block",
-      "sortid": 92,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "candy_ores_ore",
       "path": "~/Candy Tools"
     },
     {
@@ -813,31 +795,103 @@
       "path": "~/Candy Tools"
     },
     {
-      "name": "Candy_OresOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 94,
+      "name": "Candy_ToolsAxe",
+      "type": "tool",
+      "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "candy_ores_ore_block_recipe",
+      "registry_name": "candy_tools_axe",
       "path": "~/Candy Tools"
     },
     {
-      "name": "Candy_OresBlockOreRecipe",
-      "type": "recipe",
-      "sortid": 95,
+      "name": "Candy_ToolsPickaxe",
+      "type": "tool",
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "candy_ores_block_ore_recipe",
+      "registry_name": "candy_tools_pickaxe",
       "path": "~/Candy Tools"
     },
     {
-      "name": "Candy_OresOreSmelting",
+      "name": "Candy_ToolsSwordRecipe",
       "type": "recipe",
-      "sortid": 96,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "candy_ores_ore_smelting",
+      "registry_name": "candy_tools_sword_recipe",
       "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_OresDust",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_ores_dust",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_tools_pickaxe_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "IcyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icy_block_ore_recipe",
+      "path": "~/Ice Biome"
+    },
+    {
+      "name": "IcyOreSmelting",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icy_ore_smelting",
+      "path": "~/Ice Biome"
+    },
+    {
+      "name": "IcyBlock",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icy_block",
+      "path": "~/Ice Biome"
+    },
+    {
+      "name": "Icy",
+      "type": "item",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icy",
+      "path": "~/Ice Biome"
+    },
+    {
+      "name": "IcyOre",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icy_ore",
+      "path": "~/Ice Biome"
+    },
+    {
+      "name": "IcyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icy_ore_block_recipe",
+      "path": "~/Ice Biome"
     }
   ],
   "variable_elements": [],
@@ -911,6 +965,10 @@
         "children": []
       },
       {
+        "name": "Candy Tools",
+        "children": []
+      },
+      {
         "name": "Ghost Biome",
         "children": []
       },
@@ -920,10 +978,6 @@
       },
       {
         "name": "Demon Biome",
-        "children": []
-      },
-      {
-        "name": "Candy Tools",
         "children": []
       }
     ]

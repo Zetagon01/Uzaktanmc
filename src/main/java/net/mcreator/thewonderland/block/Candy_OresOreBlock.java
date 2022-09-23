@@ -1,26 +1,15 @@
 
 package net.mcreator.thewonderland.block;
 
-import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.block.SoundType;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.TieredItem;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
-import net.minecraft.core.BlockPos;
-
-import net.mcreator.thewonderland.init.TheWonderlandModItems;
-
-import java.util.List;
-import java.util.Collections;
 
 public class Candy_OresOreBlock extends Block {
+
 	public Candy_OresOreBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(6f, 8.705505632961241f).requiresCorrectToolForDrops());
+
 	}
 
 	@Override
@@ -37,9 +26,11 @@ public class Candy_OresOreBlock extends Block {
 
 	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(TheWonderlandModItems.CANDY_ORES_DUST.get(), 3));
+		return Collections.singletonList(new ItemStack(TheWonderlandModItems.DELETED_MOD_ELEMENT.get(), 3));
 	}
+
 }

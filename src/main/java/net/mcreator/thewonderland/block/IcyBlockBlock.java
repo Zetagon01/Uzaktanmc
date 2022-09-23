@@ -5,9 +5,9 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.block.state.BlockBehaviour.Properties;
 import net.minecraft.world.level.material.Material;
 
-public class Candy_OresBlockBlock extends Block {
+public class IcyBlockBlock extends Block {
 
-	public Candy_OresBlockBlock() {
+	public IcyBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
 
 	}
