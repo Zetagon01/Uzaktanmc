@@ -21,6 +21,7 @@ import net.mcreator.thewonderland.item.SoulaletHoeItem;
 import net.mcreator.thewonderland.item.SoulaletAxeItem;
 import net.mcreator.thewonderland.item.SoulItem;
 import net.mcreator.thewonderland.item.SoulArmorsArmorItem;
+import net.mcreator.thewonderland.item.IcyItem;
 import net.mcreator.thewonderland.item.ChocolateItem;
 import net.mcreator.thewonderland.item.CandyBarItem;
 import net.mcreator.thewonderland.TheWonderlandMod;
@@ -79,6 +80,9 @@ public class TheWonderlandModItems {
 	public static final RegistryObject<Item> SWEET_STONE = block(TheWonderlandModBlocks.SWEET_STONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RAW_STONE_SUGAR = block(TheWonderlandModBlocks.RAW_STONE_SUGAR, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> CANDY_SIDEWALK = block(TheWonderlandModBlocks.CANDY_SIDEWALK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ICY = REGISTRY.register("icy", () -> new IcyItem());
+	public static final RegistryObject<Item> ICY_ORE = block(TheWonderlandModBlocks.ICY_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> ICY_BLOCK = block(TheWonderlandModBlocks.ICY_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

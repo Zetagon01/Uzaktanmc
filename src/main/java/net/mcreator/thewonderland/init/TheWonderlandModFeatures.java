@@ -21,6 +21,7 @@ import net.mcreator.thewonderland.world.features.ores.SweetStoneFeature;
 import net.mcreator.thewonderland.world.features.ores.SouldirttFeature;
 import net.mcreator.thewonderland.world.features.ores.SoulDirtFeature;
 import net.mcreator.thewonderland.world.features.ores.RawStoneSugarFeature;
+import net.mcreator.thewonderland.world.features.ores.IcyOreFeature;
 import net.mcreator.thewonderland.world.features.ores.GhostStoneFeature;
 import net.mcreator.thewonderland.world.features.ores.Candy_WoodsLeavesFeature;
 import net.mcreator.thewonderland.world.features.lakes.ChocolateFeature;
@@ -50,6 +51,8 @@ public class TheWonderlandModFeatures {
 	public static final RegistryObject<Feature<?>> RAW_STONE_SUGAR = register("raw_stone_sugar", RawStoneSugarFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, RawStoneSugarFeature.GENERATE_BIOMES,
 					RawStoneSugarFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ICY_ORE = register("icy_ore", IcyOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, IcyOreFeature.GENERATE_BIOMES, IcyOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

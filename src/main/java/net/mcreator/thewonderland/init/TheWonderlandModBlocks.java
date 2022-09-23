@@ -20,6 +20,8 @@ import net.mcreator.thewonderland.block.SouldirttBlock;
 import net.mcreator.thewonderland.block.SoulDirtBlock;
 import net.mcreator.thewonderland.block.SoulBlockBlock;
 import net.mcreator.thewonderland.block.RawStoneSugarBlock;
+import net.mcreator.thewonderland.block.IcyOreBlock;
+import net.mcreator.thewonderland.block.IcyBlockBlock;
 import net.mcreator.thewonderland.block.GhostWoodBlock;
 import net.mcreator.thewonderland.block.GhostStoneBlock;
 import net.mcreator.thewonderland.block.GhostStairsBlock;
@@ -81,6 +83,8 @@ public class TheWonderlandModBlocks {
 	public static final RegistryObject<Block> SWEET_STONE = REGISTRY.register("sweet_stone", () -> new SweetStoneBlock());
 	public static final RegistryObject<Block> RAW_STONE_SUGAR = REGISTRY.register("raw_stone_sugar", () -> new RawStoneSugarBlock());
 	public static final RegistryObject<Block> CANDY_SIDEWALK = REGISTRY.register("candy_sidewalk", () -> new CandySidewalkBlock());
+	public static final RegistryObject<Block> ICY_ORE = REGISTRY.register("icy_ore", () -> new IcyOreBlock());
+	public static final RegistryObject<Block> ICY_BLOCK = REGISTRY.register("icy_block", () -> new IcyBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
