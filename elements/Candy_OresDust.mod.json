@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "candy_ores_dust",
+    "texture": "candy_shards",
     "customModelName": "Normal",
     "name": "Candy_Ores",
     "rarity": "COMMON",

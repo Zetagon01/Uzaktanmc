@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "the_wonderland:items/candy_ores_dust"
+    "layer0": "the_wonderland:items/candy_shards"
   }
 }

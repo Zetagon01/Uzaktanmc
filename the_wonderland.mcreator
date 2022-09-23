@@ -690,7 +690,7 @@
       "name": "IceBiome",
       "type": "biome",
       "sortid": 80,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "ice_biome",
       "path": "~/Ice Biome"
@@ -708,7 +708,7 @@
       "name": "Candy_ToolsHoe",
       "type": "tool",
       "sortid": 85,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "candy_tools_hoe",
       "path": "~/Candy Tools"
@@ -753,7 +753,7 @@
       "name": "Candy_OresOre",
       "type": "block",
       "sortid": 92,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "candy_ores_ore",
       "path": "~/Candy Tools"
@@ -762,7 +762,7 @@
       "name": "Candy_ToolsSword",
       "type": "tool",
       "sortid": 83,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "candy_tools_sword",
       "path": "~/Candy Tools"
@@ -771,7 +771,7 @@
       "name": "Candy_ToolsShovel",
       "type": "tool",
       "sortid": 84,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "candy_tools_shovel",
       "path": "~/Candy Tools"
@@ -789,7 +789,7 @@
       "name": "Candy_OresBlock",
       "type": "block",
       "sortid": 93,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "candy_ores_block",
       "path": "~/Candy Tools"
@@ -798,7 +798,7 @@
       "name": "Candy_ToolsAxe",
       "type": "tool",
       "sortid": 82,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "candy_tools_axe",
       "path": "~/Candy Tools"
@@ -807,7 +807,7 @@
       "name": "Candy_ToolsPickaxe",
       "type": "tool",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "candy_tools_pickaxe",
       "path": "~/Candy Tools"
@@ -861,7 +861,7 @@
       "name": "IcyBlock",
       "type": "block",
       "sortid": 83,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "icy_block",
       "path": "~/Ice Biome"
@@ -870,7 +870,7 @@
       "name": "Icy",
       "type": "item",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "icy",
       "path": "~/Ice Biome"
@@ -879,7 +879,7 @@
       "name": "IcyOre",
       "type": "block",
       "sortid": 82,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "icy_ore",
       "path": "~/Ice Biome"
@@ -903,12 +903,12 @@
       "block.the_wonderland.raw_stone_sugar": "Raw Stone Sugar",
       "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
       "block.the_wonderland.candy_ores_block": "Block of Candy_Ores",
-      "block.the_wonderland.ghost_fence": "Ghost Fence",
       "item.the_wonderland.soulalet_axe": "Soulalet Axe",
+      "block.the_wonderland.ghost_fence": "Ghost Fence",
       "block.the_wonderland.candy_woods_stairs": "Candy_Woods Stairs",
       "item.the_wonderland.soul_armors_armor_chestplate": "SoulArmors Chestplate",
-      "block.the_wonderland.candy_woods_planks": "Candy_Woods Planks",
       "block.the_wonderland.candy_leaves": "Candy Leaves",
+      "block.the_wonderland.candy_woods_planks": "Candy_Woods Planks",
       "block.the_wonderland.sweet_stone": "Sweet Stone",
       "block.the_wonderland.candy_ores_ore": "Candy_Ores Ore",
       "block.the_wonderland.ghost_stairs": "Ghost Stairs",
