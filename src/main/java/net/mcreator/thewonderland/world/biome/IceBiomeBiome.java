@@ -36,7 +36,7 @@ import com.google.common.collect.ImmutableList;
 
 public class IceBiomeBiome {
 	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(
-			Climate.Parameter.span(-1.142857142857f, -0.857142857143f), Climate.Parameter.span(0.657142857143f, 0.942857142857f),
+			Climate.Parameter.span(-1.142857142857f, -0.857142857143f), Climate.Parameter.span(0.857142857143f, 1.142857142857f),
 			Climate.Parameter.span(0.437142857143f, 0.722857142857f), Climate.Parameter.span(-1.142857142857f, -0.857142857143f),
 			Climate.Parameter.point(0), Climate.Parameter.span(-0.990807003162f, -0.705092717448f), 0);
 
@@ -69,7 +69,7 @@ public class IceBiomeBiome {
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
 		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.SNOW_GOLEM, 20, 4, 4));
 		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.FOX, 20, 4, 4));
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.SNOW).biomeCategory(Biome.BiomeCategory.ICY).temperature(-1f).downfall(0.9f)
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.SNOW).biomeCategory(Biome.BiomeCategory.ICY).temperature(-1f).downfall(1f)
 				.specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build()).build();
 	}
 

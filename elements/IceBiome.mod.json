@@ -47,7 +47,7 @@
     },
     "particlesProbability": 0.5,
     "biomeCategory": "ICY",
-    "rainingPossibility": 0.9,
+    "rainingPossibility": 1.0,
     "temperature": -1.0,
     "baseHeight": 0.8,
     "heightVariation": 2.0,
