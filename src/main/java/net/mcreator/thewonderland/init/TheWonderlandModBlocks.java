@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.thewonderland.block.SweetStoneBlock;
 import net.mcreator.thewonderland.block.SouldirttBlock;
 import net.mcreator.thewonderland.block.SoulDirtBlock;
 import net.mcreator.thewonderland.block.SoulBlockBlock;
@@ -75,6 +76,7 @@ public class TheWonderlandModBlocks {
 	public static final RegistryObject<Block> SOUL_GRASS = REGISTRY.register("soul_grass", () -> new SoulDirtBlock());
 	public static final RegistryObject<Block> SOULDIRTT = REGISTRY.register("souldirtt", () -> new SouldirttBlock());
 	public static final RegistryObject<Block> SOUL_BLOCK = REGISTRY.register("soul_block", () -> new SoulBlockBlock());
+	public static final RegistryObject<Block> SWEET_STONE = REGISTRY.register("sweet_stone", () -> new SweetStoneBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

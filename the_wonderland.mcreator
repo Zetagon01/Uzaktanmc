@@ -661,6 +661,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "candy_bar"
+    },
+    {
+      "name": "SweetStone",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sweet_stone"
     }
   ],
   "variable_elements": [],
@@ -685,6 +693,7 @@
       "item.the_wonderland.chocolate_bucket": "Chocolate Bucket",
       "block.the_wonderland.candy_woods_planks": "Candy_Woods Planks",
       "block.the_wonderland.candy_leaves": "Candy Leaves",
+      "block.the_wonderland.sweet_stone": "Sweet Stone",
       "item.the_wonderland.soulalet_sword": "Soulalet Sword",
       "block.the_wonderland.ghost_pressure_plate": "Ghost Pressure Plate",
       "block.the_wonderland.ghost_button": "Ghost Button",
