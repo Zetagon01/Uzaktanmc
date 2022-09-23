@@ -27,6 +27,7 @@ import net.mcreator.thewonderland.item.IcyToolsPickaxeItem;
 import net.mcreator.thewonderland.item.IcyToolsHoeItem;
 import net.mcreator.thewonderland.item.IcyToolsAxeItem;
 import net.mcreator.thewonderland.item.IcyItem;
+import net.mcreator.thewonderland.item.EnchantedDemonicEssenceItem;
 import net.mcreator.thewonderland.item.DemonicEssenceItem;
 import net.mcreator.thewonderland.item.ChocolateItem;
 import net.mcreator.thewonderland.item.Candy_ToolsSwordItem;
@@ -109,6 +110,9 @@ public class TheWonderlandModItems {
 	public static final RegistryObject<Item> CANDY_ORES_ORE = block(TheWonderlandModBlocks.CANDY_ORES_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> CANDY_ORES_BLOCK = block(TheWonderlandModBlocks.CANDY_ORES_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> DEMONIC_ESSENCE = REGISTRY.register("demonic_essence", () -> new DemonicEssenceItem());
+	public static final RegistryObject<Item> ENCHANTED_DEMONIC_ESSENCE = REGISTRY.register("enchanted_demonic_essence",
+			() -> new EnchantedDemonicEssenceItem());
+	public static final RegistryObject<Item> DEMONIC_CIRCLE = block(TheWonderlandModBlocks.DEMONIC_CIRCLE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

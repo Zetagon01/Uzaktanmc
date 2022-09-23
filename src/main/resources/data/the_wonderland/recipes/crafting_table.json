@@ -1,9 +1,29 @@
 {
-  "type": "minecraft:smelting",
-  "experience": 1,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "the_wonderland:ghost_stone"
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "the_wonderland:demonic_essence"
+    },
+    "3": {
+      "item": "the_wonderland:demonic_essence"
+    },
+    "4": {
+      "item": "minecraft:amethyst_cluster"
+    },
+    "5": {
+      "item": "the_wonderland:demonic_essence"
+    },
+    "7": {
+      "item": "the_wonderland:demonic_essence"
+    }
   },
-  "result": "the_wonderland:soul"
+  "result": {
+    "item": "the_wonderland:demonic_circle",
+    "count": 1
+  }
 }

@@ -33,6 +33,7 @@ import net.mcreator.thewonderland.block.GhostLeavesBlock;
 import net.mcreator.thewonderland.block.GhostFenceGateBlock;
 import net.mcreator.thewonderland.block.GhostFenceBlock;
 import net.mcreator.thewonderland.block.GhostButtonBlock;
+import net.mcreator.thewonderland.block.DemonicCircleBlock;
 import net.mcreator.thewonderland.block.ChocolateBlock;
 import net.mcreator.thewonderland.block.CandydirtBlock;
 import net.mcreator.thewonderland.block.Candy_WoodsWoodBlock;
@@ -89,6 +90,7 @@ public class TheWonderlandModBlocks {
 	public static final RegistryObject<Block> ICY_BLOCK = REGISTRY.register("icy_block", () -> new IcyBlockBlock());
 	public static final RegistryObject<Block> CANDY_ORES_ORE = REGISTRY.register("candy_ores_ore", () -> new Candy_OresOreBlock());
 	public static final RegistryObject<Block> CANDY_ORES_BLOCK = REGISTRY.register("candy_ores_block", () -> new Candy_OresBlockBlock());
+	public static final RegistryObject<Block> DEMONIC_CIRCLE = REGISTRY.register("demonic_circle", () -> new DemonicCircleBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -97,6 +99,7 @@ public class TheWonderlandModBlocks {
 			CandyBlock.registerRenderLayer();
 			SoulDirtBlock.registerRenderLayer();
 			CandySidewalkBlock.registerRenderLayer();
+			DemonicCircleBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "the_wonderland:block/demonic_circle"
+    },
+    "powered=true": {
+      "model": "the_wonderland:block/demonic_circle_down"
+    }
+  }
+}
