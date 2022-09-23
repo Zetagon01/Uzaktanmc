@@ -16,9 +16,9 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class RawStoneSugarBlock extends Block {
-	public RawStoneSugarBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 6f).requiresCorrectToolForDrops());
+public class Candy_OresBlockBlock extends Block {
+	public Candy_OresBlockBlock() {
+		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -29,7 +29,7 @@ public class RawStoneSugarBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 1;
+			return tieredItem.getTier().getLevel() >= 4;
 		return false;
 	}
 

@@ -13,12 +13,14 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.thewonderland.init.TheWonderlandModItems;
+
 import java.util.List;
 import java.util.Collections;
 
-public class RawStoneSugarBlock extends Block {
-	public RawStoneSugarBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 6f).requiresCorrectToolForDrops());
+public class Candy_OresOreBlock extends Block {
+	public Candy_OresOreBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(6f, 8.705505632961241f).requiresCorrectToolForDrops());
 	}
 
 	@Override
@@ -29,7 +31,7 @@ public class RawStoneSugarBlock extends Block {
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 1;
+			return tieredItem.getTier().getLevel() >= 4;
 		return false;
 	}
 
@@ -38,6 +40,6 @@ public class RawStoneSugarBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(TheWonderlandModItems.CANDY_ORES_DUST.get(), 3));
 	}
 }

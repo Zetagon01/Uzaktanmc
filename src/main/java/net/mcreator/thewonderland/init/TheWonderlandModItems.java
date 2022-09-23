@@ -22,6 +22,12 @@ import net.mcreator.thewonderland.item.SoulaletAxeItem;
 import net.mcreator.thewonderland.item.SoulItem;
 import net.mcreator.thewonderland.item.SoulArmorsArmorItem;
 import net.mcreator.thewonderland.item.ChocolateItem;
+import net.mcreator.thewonderland.item.Candy_ToolsSwordItem;
+import net.mcreator.thewonderland.item.Candy_ToolsShovelItem;
+import net.mcreator.thewonderland.item.Candy_ToolsPickaxeItem;
+import net.mcreator.thewonderland.item.Candy_ToolsHoeItem;
+import net.mcreator.thewonderland.item.Candy_ToolsAxeItem;
+import net.mcreator.thewonderland.item.Candy_OresDustItem;
 import net.mcreator.thewonderland.item.CandyBarItem;
 import net.mcreator.thewonderland.TheWonderlandMod;
 
@@ -79,6 +85,14 @@ public class TheWonderlandModItems {
 	public static final RegistryObject<Item> SWEET_STONE = block(TheWonderlandModBlocks.SWEET_STONE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RAW_STONE_SUGAR = block(TheWonderlandModBlocks.RAW_STONE_SUGAR, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> CANDY_SIDEWALK = block(TheWonderlandModBlocks.CANDY_SIDEWALK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> CANDY_TOOLS_PICKAXE = REGISTRY.register("candy_tools_pickaxe", () -> new Candy_ToolsPickaxeItem());
+	public static final RegistryObject<Item> CANDY_TOOLS_AXE = REGISTRY.register("candy_tools_axe", () -> new Candy_ToolsAxeItem());
+	public static final RegistryObject<Item> CANDY_TOOLS_SWORD = REGISTRY.register("candy_tools_sword", () -> new Candy_ToolsSwordItem());
+	public static final RegistryObject<Item> CANDY_TOOLS_SHOVEL = REGISTRY.register("candy_tools_shovel", () -> new Candy_ToolsShovelItem());
+	public static final RegistryObject<Item> CANDY_TOOLS_HOE = REGISTRY.register("candy_tools_hoe", () -> new Candy_ToolsHoeItem());
+	public static final RegistryObject<Item> CANDY_ORES_DUST = REGISTRY.register("candy_ores_dust", () -> new Candy_OresDustItem());
+	public static final RegistryObject<Item> CANDY_ORES_ORE = block(TheWonderlandModBlocks.CANDY_ORES_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> CANDY_ORES_BLOCK = block(TheWonderlandModBlocks.CANDY_ORES_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "the_wonderland:candy_ores_block"
+    }
+  ],
+  "result": {
+    "item": "the_wonderland:candy_ores_dust",
+    "count": 9
+  }
+}

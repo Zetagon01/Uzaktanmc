@@ -694,6 +694,150 @@
       "locked_code": false,
       "registry_name": "ice_biome",
       "path": "~/Ice Biome"
+    },
+    {
+      "name": "Candy_ToolsPickaxe",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_tools_pickaxe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ToolsAxe",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_tools_axe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ToolsSword",
+      "type": "tool",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_tools_sword",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ToolsShovel",
+      "type": "tool",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_tools_shovel",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ToolsHoe",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_tools_hoe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ToolsPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_tools_pickaxe_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ToolsAxeRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_tools_axe_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ToolsSwordRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_tools_sword_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ToolsShovelRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_tools_shovel_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ToolsHoeRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_tools_hoe_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_OresDust",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_ores_dust",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_OresOre",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_ores_ore",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_OresBlock",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_ores_block",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_OresOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_ores_ore_block_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_OresBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_ores_block_ore_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_OresOreSmelting",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_ores_ore_smelting",
+      "path": "~/Candy Tools"
     }
   ],
   "variable_elements": [],
@@ -702,7 +846,9 @@
     "en_us": {
       "block.the_wonderland.souldirtt": "Soul Dirt Block",
       "block.the_wonderland.ghost_wood": "Ghost Wood",
+      "block.the_wonderland.raw_stone_sugar": "Raw Stone Sugar",
       "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
+      "block.the_wonderland.candy_ores_block": "Block of Candy_Ores",
       "block.the_wonderland.ghost_fence": "Ghost Fence",
       "item.the_wonderland.soulalet_axe": "Soulalet Axe",
       "block.the_wonderland.candy_woods_stairs": "Candy_Woods Stairs",
@@ -710,6 +856,7 @@
       "block.the_wonderland.candy_woods_planks": "Candy_Woods Planks",
       "block.the_wonderland.candy_leaves": "Candy Leaves",
       "block.the_wonderland.sweet_stone": "Sweet Stone",
+      "block.the_wonderland.candy_ores_ore": "Candy_Ores Ore",
       "block.the_wonderland.ghost_stairs": "Ghost Stairs",
       "fluid.the_wonderland.chocolate": "Chocolate",
       "biome.the_wonderland.candyland": "Candyland",
@@ -718,6 +865,8 @@
       "block.the_wonderland.candy_woods_fence_gate": "Candy_Woods Fence Gate",
       "block.the_wonderland.ghost_leaves": "Ghost Leaves",
       "block.the_wonderland.candy_woods_log": "Candy_Woods Log",
+      "item.the_wonderland.candy_tools_hoe": "Candy_Tools Hoe",
+      "biome.the_wonderland.ice_biome": "Ice Biome",
       "block.the_wonderland.candy_woods_wood": "Candy_Woods Wood",
       "item.the_wonderland.soul_armors_armor_leggings": "SoulArmors Leggings",
       "item.the_wonderland.soulalet_shovel": "Soulalet Shovel",
@@ -725,6 +874,7 @@
       "item.the_wonderland.soul_armors_armor_boots": "SoulArmors Boots",
       "biome.the_wonderland.demonic_area": "Demonic Area",
       "block.the_wonderland.soul_block": "Soul Block",
+      "item.the_wonderland.candy_tools_shovel": "Candy_Tools Shovel",
       "biome.the_wonderland.ghost_biome": "Ghost Biome",
       "block.the_wonderland.candy_woods_button": "Candy_Woods Button",
       "block.the_wonderland.ghost_log": "Ghost Log",
@@ -733,14 +883,19 @@
       "block.the_wonderland.ghost_pressure_plate": "Ghost Pressure Plate",
       "block.the_wonderland.ghost_button": "Ghost Button",
       "block.the_wonderland.soul_grass": "Soul Grass Block",
+      "item.the_wonderland.candy_tools_pickaxe": "Candy_Tools Pickaxe",
       "item.the_wonderland.soulalet_hoe": "Soulalet Hoe",
+      "item.the_wonderland.candy_ores_dust": "Candy_Ores",
       "block.the_wonderland.ghost_fence_gate": "Ghost Fence Gate",
       "entity.the_wonderland.imp": "Imp",
       "item.the_wonderland.soul_armors_armor_helmet": "SoulArmors Helmet",
+      "item.the_wonderland.candy_tools_axe": "Candy_Tools Axe",
+      "item.the_wonderland.candy_tools_sword": "Candy_Tools Sword",
       "block.the_wonderland.ghost_planks": "Ghost Planks",
       "item.the_wonderland.imp_spawn_egg": "Imp Spawn Egg",
       "block.the_wonderland.chocolate": "Chocolate",
       "item.the_wonderland.soul": "Soul",
+      "block.the_wonderland.candy_sidewalk": "Candy Sidewalk",
       "block.the_wonderland.candy_grass_block": "Candy Grass Block",
       "block.the_wonderland.candy_woods_fence": "Candy_Woods Fence",
       "block.the_wonderland.ghost_slab": "Ghost Slab",
@@ -765,6 +920,10 @@
       },
       {
         "name": "Demon Biome",
+        "children": []
+      },
+      {
+        "name": "Candy Tools",
         "children": []
       }
     ]

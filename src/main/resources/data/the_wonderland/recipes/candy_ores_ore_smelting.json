@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1.4,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "the_wonderland:candy_ores_ore"
+  },
+  "result": "the_wonderland:candy_ores_dust"
+}

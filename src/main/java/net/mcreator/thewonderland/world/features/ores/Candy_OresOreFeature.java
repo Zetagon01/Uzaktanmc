@@ -36,18 +36,18 @@ import java.util.Set;
 import java.util.Random;
 import java.util.List;
 
-public class RawStoneSugarFeature extends OreFeature {
-	public static RawStoneSugarFeature FEATURE = null;
+public class Candy_OresOreFeature extends OreFeature {
+	public static Candy_OresOreFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<OreConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
 
 	public static Feature<?> feature() {
-		FEATURE = new RawStoneSugarFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("the_wonderland:raw_stone_sugar", FEATURE,
-				new OreConfiguration(RawStoneSugarFeatureRuleTest.INSTANCE, TheWonderlandModBlocks.RAW_STONE_SUGAR.get().defaultBlockState(), 16));
-		PLACED_FEATURE = PlacementUtils.register("the_wonderland:raw_stone_sugar", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(0), VerticalAnchor.absolute(40)), BiomeFilter.biome()));
+		FEATURE = new Candy_OresOreFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("the_wonderland:candy_ores_ore", FEATURE,
+				new OreConfiguration(Candy_OresOreFeatureRuleTest.INSTANCE, TheWonderlandModBlocks.CANDY_ORES_ORE.get().defaultBlockState(), 3));
+		PLACED_FEATURE = PlacementUtils.register("the_wonderland:candy_ores_ore", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(5), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(33)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -55,10 +55,10 @@ public class RawStoneSugarFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("the_wonderland:candyland"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
-	public RawStoneSugarFeature() {
+	public Candy_OresOreFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -70,14 +70,14 @@ public class RawStoneSugarFeature extends OreFeature {
 	}
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
-	private static class RawStoneSugarFeatureRuleTest extends RuleTest {
-		static final RawStoneSugarFeatureRuleTest INSTANCE = new RawStoneSugarFeatureRuleTest();
-		private static final com.mojang.serialization.Codec<RawStoneSugarFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		private static final RuleTestType<RawStoneSugarFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
+	private static class Candy_OresOreFeatureRuleTest extends RuleTest {
+		static final Candy_OresOreFeatureRuleTest INSTANCE = new Candy_OresOreFeatureRuleTest();
+		private static final com.mojang.serialization.Codec<Candy_OresOreFeatureRuleTest> CODEC = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+		private static final RuleTestType<Candy_OresOreFeatureRuleTest> CUSTOM_MATCH = () -> CODEC;
 
 		@SubscribeEvent
 		public static void init(FMLCommonSetupEvent event) {
-			Registry.register(Registry.RULE_TEST, new ResourceLocation("the_wonderland:raw_stone_sugar_match"), CUSTOM_MATCH);
+			Registry.register(Registry.RULE_TEST, new ResourceLocation("the_wonderland:candy_ores_ore_match"), CUSTOM_MATCH);
 		}
 
 		private List<Block> base_blocks = null;

@@ -43,6 +43,8 @@ import net.mcreator.thewonderland.block.Candy_WoodsLeavesBlock;
 import net.mcreator.thewonderland.block.Candy_WoodsFenceGateBlock;
 import net.mcreator.thewonderland.block.Candy_WoodsFenceBlock;
 import net.mcreator.thewonderland.block.Candy_WoodsButtonBlock;
+import net.mcreator.thewonderland.block.Candy_OresOreBlock;
+import net.mcreator.thewonderland.block.Candy_OresBlockBlock;
 import net.mcreator.thewonderland.block.CandySidewalkBlock;
 import net.mcreator.thewonderland.block.CandyBlock;
 import net.mcreator.thewonderland.TheWonderlandMod;
@@ -81,6 +83,8 @@ public class TheWonderlandModBlocks {
 	public static final RegistryObject<Block> SWEET_STONE = REGISTRY.register("sweet_stone", () -> new SweetStoneBlock());
 	public static final RegistryObject<Block> RAW_STONE_SUGAR = REGISTRY.register("raw_stone_sugar", () -> new RawStoneSugarBlock());
 	public static final RegistryObject<Block> CANDY_SIDEWALK = REGISTRY.register("candy_sidewalk", () -> new CandySidewalkBlock());
+	public static final RegistryObject<Block> CANDY_ORES_ORE = REGISTRY.register("candy_ores_ore", () -> new Candy_OresOreBlock());
+	public static final RegistryObject<Block> CANDY_ORES_BLOCK = REGISTRY.register("candy_ores_block", () -> new Candy_OresBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
