@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.mcreator.thewonderland.world.biome.IceBiomeBiome;
 import net.mcreator.thewonderland.world.biome.GhostBiomeBiome;
 import net.mcreator.thewonderland.world.biome.DemonicAreaBiome;
 import net.mcreator.thewonderland.world.biome.CandylandBiome;
@@ -47,6 +48,7 @@ public class TheWonderlandModBiomes {
 	public static final RegistryObject<Biome> CANDYLAND = REGISTRY.register("candyland", () -> CandylandBiome.createBiome());
 	public static final RegistryObject<Biome> GHOST_BIOME = REGISTRY.register("ghost_biome", () -> GhostBiomeBiome.createBiome());
 	public static final RegistryObject<Biome> DEMONIC_AREA = REGISTRY.register("demonic_area", () -> DemonicAreaBiome.createBiome());
+	public static final RegistryObject<Biome> ICE_BIOME = REGISTRY.register("ice_biome", () -> IceBiomeBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
@@ -54,6 +56,7 @@ public class TheWonderlandModBiomes {
 			CandylandBiome.init();
 			GhostBiomeBiome.init();
 			DemonicAreaBiome.init();
+			IceBiomeBiome.init();
 		});
 	}
 
@@ -78,6 +81,8 @@ public class TheWonderlandModBiomes {
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, GHOST_BIOME.getId()))));
 						parameters.add(new Pair<>(DemonicAreaBiome.PARAMETER_POINT,
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, DEMONIC_AREA.getId()))));
+						parameters.add(new Pair<>(IceBiomeBiome.PARAMETER_POINT,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, ICE_BIOME.getId()))));
 
 						MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters),
 								noiseSource.preset);
@@ -104,6 +109,10 @@ public class TheWonderlandModBiomes {
 									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, DEMONIC_AREA.getId()),
 											Blocks.CRIMSON_NYLIUM.defaultBlockState(), Blocks.NETHER_WART_BLOCK.defaultBlockState(),
 											Blocks.NETHER_WART_BLOCK.defaultBlockState()));
+							surfaceRules.add(1,
+									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, ICE_BIOME.getId()),
+											Blocks.SNOW_BLOCK.defaultBlockState(), Blocks.POWDER_SNOW.defaultBlockState(),
+											Blocks.FROSTED_ICE.defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),

@@ -685,6 +685,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "candy_sidewalk"
+    },
+    {
+      "name": "IceBiome",
+      "type": "biome",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_biome",
+      "path": "~/Ice Biome"
     }
   ],
   "variable_elements": [],
@@ -693,7 +702,6 @@
     "en_us": {
       "block.the_wonderland.souldirtt": "Soul Dirt Block",
       "block.the_wonderland.ghost_wood": "Ghost Wood",
-      "block.the_wonderland.raw_stone_sugar": "Raw Stone Sugar",
       "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
       "block.the_wonderland.ghost_fence": "Ghost Fence",
       "item.the_wonderland.soulalet_axe": "Soulalet Axe",
@@ -733,7 +741,6 @@
       "item.the_wonderland.imp_spawn_egg": "Imp Spawn Egg",
       "block.the_wonderland.chocolate": "Chocolate",
       "item.the_wonderland.soul": "Soul",
-      "block.the_wonderland.candy_sidewalk": "Candy Sidewalk",
       "block.the_wonderland.candy_grass_block": "Candy Grass Block",
       "block.the_wonderland.candy_woods_fence": "Candy_Woods Fence",
       "block.the_wonderland.ghost_slab": "Ghost Slab",
@@ -745,15 +752,19 @@
     "name": "~",
     "children": [
       {
+        "name": "Candy Biome",
+        "children": []
+      },
+      {
         "name": "Ghost Biome",
         "children": []
       },
       {
-        "name": "Demon Biome",
+        "name": "Ice Biome",
         "children": []
       },
       {
-        "name": "Candy Biome",
+        "name": "Demon Biome",
         "children": []
       }
     ]
