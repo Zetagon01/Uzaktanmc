@@ -892,6 +892,15 @@
       "locked_code": false,
       "registry_name": "icy_ore_block_recipe",
       "path": "~/Ice Biome"
+    },
+    {
+      "name": "DemonicEssence",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_essence",
+      "path": "~/Demon Biome"
     }
   ],
   "variable_elements": [],
@@ -903,12 +912,12 @@
       "block.the_wonderland.raw_stone_sugar": "Raw Stone Sugar",
       "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
       "block.the_wonderland.candy_ores_block": "Block of Candy_Ores",
-      "item.the_wonderland.soulalet_axe": "Soulalet Axe",
       "block.the_wonderland.ghost_fence": "Ghost Fence",
+      "item.the_wonderland.soulalet_axe": "Soulalet Axe",
       "block.the_wonderland.candy_woods_stairs": "Candy_Woods Stairs",
       "item.the_wonderland.soul_armors_armor_chestplate": "SoulArmors Chestplate",
-      "block.the_wonderland.candy_leaves": "Candy Leaves",
       "block.the_wonderland.candy_woods_planks": "Candy_Woods Planks",
+      "block.the_wonderland.candy_leaves": "Candy Leaves",
       "block.the_wonderland.sweet_stone": "Sweet Stone",
       "block.the_wonderland.candy_ores_ore": "Candy_Ores Ore",
       "block.the_wonderland.ghost_stairs": "Ghost Stairs",
@@ -932,6 +941,7 @@
       "biome.the_wonderland.ghost_biome": "Ghost Biome",
       "block.the_wonderland.candy_woods_button": "Candy_Woods Button",
       "block.the_wonderland.ghost_log": "Ghost Log",
+      "item.the_wonderland.demonic_essence": "Demonic Essence",
       "item.the_wonderland.chocolate_bucket": "Chocolate Bucket",
       "item.the_wonderland.soulalet_sword": "Soulalet Sword",
       "block.the_wonderland.ghost_pressure_plate": "Ghost Pressure Plate",
