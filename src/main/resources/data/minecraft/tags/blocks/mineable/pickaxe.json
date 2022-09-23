@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "the_wonderland:ghost_stone",
-    "the_wonderland:soul_block"
+    "the_wonderland:soul_block",
+    "the_wonderland:raw_stone_sugar",
+    "the_wonderland:candy_sidewalk"
   ]
 }

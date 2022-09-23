@@ -19,6 +19,7 @@ import net.mcreator.thewonderland.block.SweetStoneBlock;
 import net.mcreator.thewonderland.block.SouldirttBlock;
 import net.mcreator.thewonderland.block.SoulDirtBlock;
 import net.mcreator.thewonderland.block.SoulBlockBlock;
+import net.mcreator.thewonderland.block.RawStoneSugarBlock;
 import net.mcreator.thewonderland.block.GhostWoodBlock;
 import net.mcreator.thewonderland.block.GhostStoneBlock;
 import net.mcreator.thewonderland.block.GhostStairsBlock;
@@ -42,6 +43,7 @@ import net.mcreator.thewonderland.block.Candy_WoodsLeavesBlock;
 import net.mcreator.thewonderland.block.Candy_WoodsFenceGateBlock;
 import net.mcreator.thewonderland.block.Candy_WoodsFenceBlock;
 import net.mcreator.thewonderland.block.Candy_WoodsButtonBlock;
+import net.mcreator.thewonderland.block.CandySidewalkBlock;
 import net.mcreator.thewonderland.block.CandyBlock;
 import net.mcreator.thewonderland.TheWonderlandMod;
 
@@ -77,6 +79,8 @@ public class TheWonderlandModBlocks {
 	public static final RegistryObject<Block> SOULDIRTT = REGISTRY.register("souldirtt", () -> new SouldirttBlock());
 	public static final RegistryObject<Block> SOUL_BLOCK = REGISTRY.register("soul_block", () -> new SoulBlockBlock());
 	public static final RegistryObject<Block> SWEET_STONE = REGISTRY.register("sweet_stone", () -> new SweetStoneBlock());
+	public static final RegistryObject<Block> RAW_STONE_SUGAR = REGISTRY.register("raw_stone_sugar", () -> new RawStoneSugarBlock());
+	public static final RegistryObject<Block> CANDY_SIDEWALK = REGISTRY.register("candy_sidewalk", () -> new CandySidewalkBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -84,6 +88,7 @@ public class TheWonderlandModBlocks {
 		public static void clientSetup(FMLClientSetupEvent event) {
 			CandyBlock.registerRenderLayer();
 			SoulDirtBlock.registerRenderLayer();
+			CandySidewalkBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent
