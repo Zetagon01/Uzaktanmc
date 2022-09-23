@@ -1,5 +1,5 @@
 {
-  "parent": "the_wonderland:block/demonic_circle",
+  "parent": "the_wonderland:block/demonic_block",
   "display": {
     "thirdperson": {
       "rotation": [

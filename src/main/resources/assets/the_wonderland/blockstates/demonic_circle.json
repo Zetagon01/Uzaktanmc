@@ -1,10 +1,19 @@
 {
   "variants": {
-    "powered=false": {
+    "facing=north": {
       "model": "the_wonderland:block/demonic_circle"
     },
-    "powered=true": {
-      "model": "the_wonderland:block/demonic_circle_down"
+    "facing=east": {
+      "model": "the_wonderland:block/demonic_circle",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "the_wonderland:block/demonic_circle",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "the_wonderland:block/demonic_circle",
+      "y": 270
     }
   }
 }

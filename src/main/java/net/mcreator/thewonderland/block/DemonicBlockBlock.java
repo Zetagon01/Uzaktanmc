@@ -8,19 +8,15 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.BlockPos;
-
-import net.mcreator.thewonderland.init.TheWonderlandModItems;
 
 import java.util.List;
 import java.util.Collections;
 
-public class IcyOreBlock extends Block {
-	public IcyOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(6f, 8.705505632961241f).requiresCorrectToolForDrops());
+public class DemonicBlockBlock extends Block {
+	public DemonicBlockBlock() {
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.BASALT).strength(-1, 3600000));
 	}
 
 	@Override
@@ -29,17 +25,10 @@ public class IcyOreBlock extends Block {
 	}
 
 	@Override
-	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
-			return tieredItem.getTier().getLevel() >= 4;
-		return false;
-	}
-
-	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(TheWonderlandModItems.ICY.get()));
+		return Collections.singletonList(new ItemStack(this, 1));
 	}
 }

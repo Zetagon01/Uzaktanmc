@@ -3,22 +3,22 @@
   "_type": "block",
   "definition": {
     "texture": "stonebricksiyah",
-    "textureTop": "st",
-    "textureLeft": "stonebricksiyah",
-    "textureFront": "stonebricksiyah",
-    "textureRight": "stonebricksiyah",
-    "textureBack": "stonebricksiyah",
-    "renderType": 10,
-    "customModelName": "Normal",
-    "rotationMode": 3,
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
     "enablePitch": false,
-    "emissiveRendering": true,
+    "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
-    "isItemTinted": true,
-    "hasTransparency": true,
+    "isItemTinted": false,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -33,9 +33,9 @@
         "subtract": false
       }
     ],
-    "name": "Demonic Circle",
+    "name": "Demonic Block",
     "specialInfo": [],
-    "hardness": 500.0,
+    "hardness": 1000.0,
     "resistance": 1000.0,
     "hasGravity": false,
     "isWaterloggable": false,
@@ -46,13 +46,13 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
-    "enchantPowerBonus": 10.0,
+    "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 0,
+    "lightOpacity": 15,
     "material": {
       "value": "ROCK"
     },
@@ -68,18 +68,18 @@
       "value": ""
     },
     "offsetType": "NONE",
-    "aiPathNodeType": "BLOCKED",
+    "aiPathNodeType": "DEFAULT",
     "flammability": 0,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": -15.0,
-    "jumpFactor": -15.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "SOUL_SOIL"
+      "value": "BASALT"
     },
     "breakSound": {
       "value": ""
@@ -96,16 +96,16 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 15,
+    "luminance": 0,
     "unbreakable": true,
     "breakHarvestLevel": 1,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
-      "value": "FLAME"
+      "value": "CUSTOM:CandyLeaf"
     },
-    "particleSpawningShape": "Top",
-    "particleSpawningRadious": 0.1,
-    "particleAmount": 1,
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

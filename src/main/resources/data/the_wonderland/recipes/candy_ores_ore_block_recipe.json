@@ -7,35 +7,35 @@
   ],
   "key": {
     "0": {
-      "item": "the_wonderland:deleted_mod_element"
+      "item": "the_wonderland:candy_ores_dust"
     },
     "1": {
-      "item": "the_wonderland:deleted_mod_element"
+      "item": "the_wonderland:candy_ores_dust"
     },
     "2": {
-      "item": "the_wonderland:deleted_mod_element"
+      "item": "the_wonderland:candy_ores_dust"
     },
     "3": {
-      "item": "the_wonderland:deleted_mod_element"
+      "item": "the_wonderland:candy_ores_dust"
     },
     "4": {
-      "item": "the_wonderland:deleted_mod_element"
+      "item": "the_wonderland:candy_ores_dust"
     },
     "5": {
-      "item": "the_wonderland:deleted_mod_element"
+      "item": "the_wonderland:candy_ores_dust"
     },
     "6": {
-      "item": "the_wonderland:deleted_mod_element"
+      "item": "the_wonderland:candy_ores_dust"
     },
     "7": {
-      "item": "the_wonderland:deleted_mod_element"
+      "item": "the_wonderland:candy_ores_dust"
     },
     "8": {
-      "item": "the_wonderland:deleted_mod_element"
+      "item": "the_wonderland:candy_ores_dust"
     }
   },
   "result": {
-    "item": "the_wonderland:deleted_mod_element",
+    "item": "the_wonderland:candy_ores_block",
     "count": 1
   }
 }

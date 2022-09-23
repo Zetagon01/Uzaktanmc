@@ -1,7 +1,14 @@
 
 package net.mcreator.thewonderland.item;
 
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.thewonderland.init.TheWonderlandModItems;
 
 public class Candy_ToolsPickaxeItem extends PickaxeItem {
 	public Candy_ToolsPickaxeItem() {
@@ -29,11 +36,6 @@ public class Candy_ToolsPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(TheWonderlandModItems.CANDY_BAR.get()));
 			}
-		},
-
-				1, -3f,
-
-				new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
-
 }

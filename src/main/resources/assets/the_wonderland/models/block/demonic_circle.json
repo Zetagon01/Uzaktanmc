@@ -1,6 +1,12 @@
 {
-  "parent": "block/pressure_plate_up",
+  "parent": "block/cube",
   "textures": {
-    "texture": "the_wonderland:blocks/rm3zmjs"
+    "down": "the_wonderland:blocks/stonebricksiyah",
+    "up": "the_wonderland:blocks/st",
+    "north": "the_wonderland:blocks/stonebricksiyah",
+    "east": "the_wonderland:blocks/stonebricksiyah",
+    "south": "the_wonderland:blocks/stonebricksiyah",
+    "west": "the_wonderland:blocks/stonebricksiyah",
+    "particle": "the_wonderland:blocks/stonebricksiyah"
   }
 }

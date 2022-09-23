@@ -33,7 +33,9 @@ import net.mcreator.thewonderland.block.GhostLeavesBlock;
 import net.mcreator.thewonderland.block.GhostFenceGateBlock;
 import net.mcreator.thewonderland.block.GhostFenceBlock;
 import net.mcreator.thewonderland.block.GhostButtonBlock;
+import net.mcreator.thewonderland.block.DemonicEnchantTableBlock;
 import net.mcreator.thewonderland.block.DemonicCircleBlock;
+import net.mcreator.thewonderland.block.DemonicBlockBlock;
 import net.mcreator.thewonderland.block.ChocolateBlock;
 import net.mcreator.thewonderland.block.CandydirtBlock;
 import net.mcreator.thewonderland.block.Candy_WoodsWoodBlock;
@@ -91,6 +93,9 @@ public class TheWonderlandModBlocks {
 	public static final RegistryObject<Block> CANDY_ORES_ORE = REGISTRY.register("candy_ores_ore", () -> new Candy_OresOreBlock());
 	public static final RegistryObject<Block> CANDY_ORES_BLOCK = REGISTRY.register("candy_ores_block", () -> new Candy_OresBlockBlock());
 	public static final RegistryObject<Block> DEMONIC_CIRCLE = REGISTRY.register("demonic_circle", () -> new DemonicCircleBlock());
+	public static final RegistryObject<Block> DEMONIC_BLOCK = REGISTRY.register("demonic_block", () -> new DemonicBlockBlock());
+	public static final RegistryObject<Block> DEMONIC_ENCHANT_TABLE = REGISTRY.register("demonic_enchant_table",
+			() -> new DemonicEnchantTableBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -100,6 +105,7 @@ public class TheWonderlandModBlocks {
 			SoulDirtBlock.registerRenderLayer();
 			CandySidewalkBlock.registerRenderLayer();
 			DemonicCircleBlock.registerRenderLayer();
+			DemonicEnchantTableBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent

@@ -113,6 +113,9 @@ public class TheWonderlandModItems {
 	public static final RegistryObject<Item> ENCHANTED_DEMONIC_ESSENCE = REGISTRY.register("enchanted_demonic_essence",
 			() -> new EnchantedDemonicEssenceItem());
 	public static final RegistryObject<Item> DEMONIC_CIRCLE = block(TheWonderlandModBlocks.DEMONIC_CIRCLE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> DEMONIC_BLOCK = block(TheWonderlandModBlocks.DEMONIC_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> DEMONIC_ENCHANT_TABLE = block(TheWonderlandModBlocks.DEMONIC_ENCHANT_TABLE,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
