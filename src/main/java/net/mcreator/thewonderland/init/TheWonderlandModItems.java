@@ -22,6 +22,7 @@ import net.mcreator.thewonderland.item.SoulaletAxeItem;
 import net.mcreator.thewonderland.item.SoulItem;
 import net.mcreator.thewonderland.item.SoulArmorsArmorItem;
 import net.mcreator.thewonderland.item.ChocolateItem;
+import net.mcreator.thewonderland.item.CandyBarItem;
 import net.mcreator.thewonderland.TheWonderlandMod;
 
 public class TheWonderlandModItems {
@@ -74,6 +75,7 @@ public class TheWonderlandModItems {
 			() -> new SoulArmorsArmorItem.Boots());
 	public static final RegistryObject<Item> IMP = REGISTRY.register("imp_spawn_egg",
 			() -> new ForgeSpawnEggItem(TheWonderlandModEntities.IMP, -1, -1, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+	public static final RegistryObject<Item> CANDY_BAR = REGISTRY.register("candy_bar", () -> new CandyBarItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
