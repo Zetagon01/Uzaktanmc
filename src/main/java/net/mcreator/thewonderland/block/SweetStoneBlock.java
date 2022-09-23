@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class SweetStoneBlock extends Block {
 	public SweetStoneBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 6f));
 	}
 
 	@Override

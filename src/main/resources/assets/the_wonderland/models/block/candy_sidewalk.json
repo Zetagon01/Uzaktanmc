@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_wonderland:blocks/yellow",
+    "up": "the_wonderland:blocks/candy_sidewalk",
+    "north": "the_wonderland:blocks/yellow",
+    "east": "the_wonderland:blocks/yellow",
+    "south": "the_wonderland:blocks/yellow",
+    "west": "the_wonderland:blocks/yellow",
+    "particle": "the_wonderland:blocks/yellow"
+  }
+}

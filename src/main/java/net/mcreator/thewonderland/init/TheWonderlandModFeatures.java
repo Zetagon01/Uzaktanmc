@@ -17,8 +17,10 @@ import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
+import net.mcreator.thewonderland.world.features.ores.SweetStoneFeature;
 import net.mcreator.thewonderland.world.features.ores.SouldirttFeature;
 import net.mcreator.thewonderland.world.features.ores.SoulDirtFeature;
+import net.mcreator.thewonderland.world.features.ores.RawStoneSugarFeature;
 import net.mcreator.thewonderland.world.features.ores.GhostStoneFeature;
 import net.mcreator.thewonderland.world.features.ores.Candy_WoodsLeavesFeature;
 import net.mcreator.thewonderland.world.features.lakes.ChocolateFeature;
@@ -43,6 +45,11 @@ public class TheWonderlandModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SoulDirtFeature.GENERATE_BIOMES, SoulDirtFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> SOULDIRTT = register("souldirtt", SouldirttFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SouldirttFeature.GENERATE_BIOMES, SouldirttFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SWEET_STONE = register("sweet_stone", SweetStoneFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SweetStoneFeature.GENERATE_BIOMES, SweetStoneFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> RAW_STONE_SUGAR = register("raw_stone_sugar", RawStoneSugarFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, RawStoneSugarFeature.GENERATE_BIOMES,
+					RawStoneSugarFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

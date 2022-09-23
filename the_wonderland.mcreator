@@ -678,6 +678,22 @@
       "locked_code": false,
       "registry_name": "ice_biome",
       "path": "~/Ice Biome"
+    },
+    {
+      "name": "RawStoneSugar",
+      "type": "block",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_stone_sugar"
+    },
+    {
+      "name": "CandySidewalk",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_sidewalk"
     }
   ],
   "variable_elements": [],
@@ -737,15 +753,19 @@
     "name": "~",
     "children": [
       {
+        "name": "Candy Biome",
+        "children": []
+      },
+      {
         "name": "Ghost Biome",
         "children": []
       },
       {
-        "name": "Demon Biome",
+        "name": "Ice Biome",
         "children": []
       },
       {
-        "name": "Ice Biome",
+        "name": "Demon Biome",
         "children": []
       }
     ]
