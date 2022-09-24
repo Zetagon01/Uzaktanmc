@@ -4,6 +4,10 @@
  */
 package net.mcreator.thewonderland.init;
 
+import org.checkerframework.checker.units.qual.K;
+import org.checkerframework.checker.units.qual.C;
+import org.checkerframework.checker.units.qual.A;
+
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
@@ -116,6 +120,31 @@ public class TheWonderlandModItems {
 	public static final RegistryObject<Item> DEMONIC_BLOCK = block(TheWonderlandModBlocks.DEMONIC_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> DEMONIC_ENCHANT_TABLE = block(TheWonderlandModBlocks.DEMONIC_ENCHANT_TABLE,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> DEMONIC_CIRCLEE = block(TheWonderlandModBlocks.DEMONIC_CIRCLEE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> A = block(TheWonderlandModBlocks.A, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> S = block(TheWonderlandModBlocks.S, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> D = block(TheWonderlandModBlocks.D, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> F = block(TheWonderlandModBlocks.F, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> G = block(TheWonderlandModBlocks.G, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> H = block(TheWonderlandModBlocks.H, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> J = block(TheWonderlandModBlocks.J, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> K = block(TheWonderlandModBlocks.K, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> L = block(TheWonderlandModBlocks.L, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> M = block(TheWonderlandModBlocks.M, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> N = block(TheWonderlandModBlocks.N, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> O = block(TheWonderlandModBlocks.O, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> P = block(TheWonderlandModBlocks.P, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> R = block(TheWonderlandModBlocks.R, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> I = block(TheWonderlandModBlocks.I, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> Z = block(TheWonderlandModBlocks.Z, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> X = block(TheWonderlandModBlocks.X, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> C = block(TheWonderlandModBlocks.C, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> V = block(TheWonderlandModBlocks.V, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> W = block(TheWonderlandModBlocks.W, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> E = block(TheWonderlandModBlocks.E, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> T = block(TheWonderlandModBlocks.T, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> Y = block(TheWonderlandModBlocks.Y, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> U = block(TheWonderlandModBlocks.U, CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

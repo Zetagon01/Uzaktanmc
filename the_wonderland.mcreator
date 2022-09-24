@@ -1027,14 +1027,277 @@
       "locked_code": false,
       "registry_name": "demonic_enchant_table",
       "path": "~/Demon Biome"
+    },
+    {
+      "name": "DemonicCirclee",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_circlee",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "A",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "S",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "s",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "D",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "d",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "F",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "G",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "g",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "H",
+      "type": "block",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "h",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "J",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "j",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "K",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "L",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "l",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "M",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "N",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "n",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "O",
+      "type": "block",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "o",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "P",
+      "type": "block",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "p",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "R",
+      "type": "block",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "r",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "I",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "Z",
+      "type": "block",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "z",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "X",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "x",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "C",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "V",
+      "type": "block",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "v",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "W",
+      "type": "block",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "w",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "E",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "T",
+      "type": "block",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "t",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "Y",
+      "type": "block",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "y",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "U",
+      "type": "block",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "u",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "DemonicCrafting",
+      "type": "gui",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_crafting",
+      "path": "~/Demon Biome"
+    },
+    {
+      "name": "Demoniccraft",
+      "type": "procedure",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demoniccraft",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Demon Biome"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.the_wonderland.souldirtt": "Soul Dirt Block",
       "block.the_wonderland.ghost_wood": "Ghost Wood",
+      "block.the_wonderland.souldirtt": "Soul Dirt Block",
       "block.the_wonderland.raw_stone_sugar": "Raw Stone Sugar",
       "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
       "block.the_wonderland.candy_ores_block": "Block of Candy_Ores",
@@ -1051,15 +1314,37 @@
       "block.the_wonderland.demonic_circle": "Demonic Circle",
       "fluid.the_wonderland.chocolate": "Chocolate",
       "block.the_wonderland.icy_block": "Block of Icy",
+      "block.the_wonderland.w": "Demonic Circlee",
+      "block.the_wonderland.x": "Demonic Circlee",
+      "block.the_wonderland.u": "Demonic Circlee",
+      "block.the_wonderland.v": "Demonic Circlee",
+      "block.the_wonderland.s": "Demonic Circlee",
+      "block.the_wonderland.t": "Demonic Circlee",
       "biome.the_wonderland.candyland": "Candyland",
+      "block.the_wonderland.r": "Demonic Circlee",
       "block.the_wonderland.candydirt": "Candy Dirt Block",
       "item.the_wonderland.soulalet_pickaxe": "Soulalet Pickaxe",
+      "block.the_wonderland.o": "Demonic Circlee",
       "item.the_wonderland.enchanted_demonic_essence": "Enchanted Demonic Essence",
+      "block.the_wonderland.p": "Demonic Circlee",
       "block.the_wonderland.candy_woods_fence_gate": "Candy_Woods Fence Gate",
+      "block.the_wonderland.m": "Demonic Circlee",
+      "block.the_wonderland.n": "Demonic Circlee",
       "block.the_wonderland.ghost_leaves": "Ghost Leaves",
       "item.the_wonderland.icy_tools_sword": "IcyTools Sword",
+      "block.the_wonderland.k": "Demonic Circlee",
+      "block.the_wonderland.l": "Demonic Circlee",
+      "block.the_wonderland.i": "Demonic Circlee",
+      "block.the_wonderland.j": "Demonic Circlee",
       "block.the_wonderland.candy_woods_log": "Candy_Woods Log",
+      "block.the_wonderland.g": "Demonic Circlee",
+      "block.the_wonderland.h": "Demonic Circlee",
+      "block.the_wonderland.e": "Demonic Circlee",
       "item.the_wonderland.candy_tools_hoe": "Candy_Tools Hoe",
+      "block.the_wonderland.f": "Demonic Circlee",
+      "block.the_wonderland.c": "Demonic Circlee",
+      "block.the_wonderland.d": "Demonic Circlee",
+      "block.the_wonderland.a": "Demonic Circlee",
       "biome.the_wonderland.ice_biome": "Ice Biome",
       "block.the_wonderland.candy_woods_wood": "Candy_Woods Wood",
       "item.the_wonderland.soul_armors_armor_leggings": "SoulArmors Leggings",
@@ -1069,6 +1354,7 @@
       "biome.the_wonderland.demonic_area": "Demonic Area",
       "item.the_wonderland.icy_tools_hoe": "IcyTools Hoe",
       "block.the_wonderland.soul_block": "Soul Block",
+      "block.the_wonderland.demonic_circlee": "Demonic Circlee",
       "item.the_wonderland.candy_tools_shovel": "Candy_Tools Shovel",
       "block.the_wonderland.icy_ore": "Icy Ore",
       "biome.the_wonderland.ghost_biome": "Ghost Biome",
@@ -1085,7 +1371,9 @@
       "item.the_wonderland.soulalet_hoe": "Soulalet Hoe",
       "item.the_wonderland.candy_ores_dust": "Candy_Ores",
       "block.the_wonderland.demonic_block": "Demonic Block",
+      "block.the_wonderland.y": "Demonic Circlee",
       "block.the_wonderland.ghost_fence_gate": "Ghost Fence Gate",
+      "block.the_wonderland.z": "Demonic Circlee",
       "entity.the_wonderland.imp": "Imp",
       "item.the_wonderland.soul_armors_armor_helmet": "SoulArmors Helmet",
       "item.the_wonderland.candy_tools_axe": "Candy_Tools Axe",
@@ -1126,7 +1414,12 @@
       },
       {
         "name": "Demon Biome",
-        "children": []
+        "children": [
+          {
+            "name": "DemonicCircle",
+            "children": []
+          }
+        ]
       }
     ]
   },

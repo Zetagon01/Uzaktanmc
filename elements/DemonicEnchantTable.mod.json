@@ -110,10 +110,10 @@
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.1,
     "particleAmount": 1,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "hasInventory": true,
+    "guiBoundTo": "DemonicCrafting",
+    "openGUIOnRightClick": true,
+    "inventorySize": 10,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
@@ -127,6 +127,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onRightClicked": {
+      "name": "Demoniccraft"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

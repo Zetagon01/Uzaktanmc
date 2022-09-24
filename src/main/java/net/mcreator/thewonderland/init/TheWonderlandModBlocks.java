@@ -4,6 +4,10 @@
  */
 package net.mcreator.thewonderland.init;
 
+import org.checkerframework.checker.units.qual.K;
+import org.checkerframework.checker.units.qual.C;
+import org.checkerframework.checker.units.qual.A;
+
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
@@ -15,13 +19,31 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.thewonderland.block.ZBlock;
+import net.mcreator.thewonderland.block.YBlock;
+import net.mcreator.thewonderland.block.XBlock;
+import net.mcreator.thewonderland.block.WBlock;
+import net.mcreator.thewonderland.block.VBlock;
+import net.mcreator.thewonderland.block.UBlock;
+import net.mcreator.thewonderland.block.TBlock;
 import net.mcreator.thewonderland.block.SweetStoneBlock;
 import net.mcreator.thewonderland.block.SouldirttBlock;
 import net.mcreator.thewonderland.block.SoulDirtBlock;
 import net.mcreator.thewonderland.block.SoulBlockBlock;
+import net.mcreator.thewonderland.block.SBlock;
 import net.mcreator.thewonderland.block.RawStoneSugarBlock;
+import net.mcreator.thewonderland.block.RBlock;
+import net.mcreator.thewonderland.block.PBlock;
+import net.mcreator.thewonderland.block.OBlock;
+import net.mcreator.thewonderland.block.NBlock;
+import net.mcreator.thewonderland.block.MBlock;
+import net.mcreator.thewonderland.block.LBlock;
+import net.mcreator.thewonderland.block.KBlock;
+import net.mcreator.thewonderland.block.JBlock;
 import net.mcreator.thewonderland.block.IcyOreBlock;
 import net.mcreator.thewonderland.block.IcyBlockBlock;
+import net.mcreator.thewonderland.block.IBlock;
+import net.mcreator.thewonderland.block.HBlock;
 import net.mcreator.thewonderland.block.GhostWoodBlock;
 import net.mcreator.thewonderland.block.GhostStoneBlock;
 import net.mcreator.thewonderland.block.GhostStairsBlock;
@@ -33,9 +55,14 @@ import net.mcreator.thewonderland.block.GhostLeavesBlock;
 import net.mcreator.thewonderland.block.GhostFenceGateBlock;
 import net.mcreator.thewonderland.block.GhostFenceBlock;
 import net.mcreator.thewonderland.block.GhostButtonBlock;
+import net.mcreator.thewonderland.block.GBlock;
+import net.mcreator.thewonderland.block.FBlock;
+import net.mcreator.thewonderland.block.EBlock;
 import net.mcreator.thewonderland.block.DemonicEnchantTableBlock;
+import net.mcreator.thewonderland.block.DemonicCircleeBlock;
 import net.mcreator.thewonderland.block.DemonicCircleBlock;
 import net.mcreator.thewonderland.block.DemonicBlockBlock;
+import net.mcreator.thewonderland.block.DBlock;
 import net.mcreator.thewonderland.block.ChocolateBlock;
 import net.mcreator.thewonderland.block.CandydirtBlock;
 import net.mcreator.thewonderland.block.Candy_WoodsWoodBlock;
@@ -52,6 +79,8 @@ import net.mcreator.thewonderland.block.Candy_OresOreBlock;
 import net.mcreator.thewonderland.block.Candy_OresBlockBlock;
 import net.mcreator.thewonderland.block.CandySidewalkBlock;
 import net.mcreator.thewonderland.block.CandyBlock;
+import net.mcreator.thewonderland.block.CBlock;
+import net.mcreator.thewonderland.block.ABlock;
 import net.mcreator.thewonderland.TheWonderlandMod;
 
 public class TheWonderlandModBlocks {
@@ -96,6 +125,31 @@ public class TheWonderlandModBlocks {
 	public static final RegistryObject<Block> DEMONIC_BLOCK = REGISTRY.register("demonic_block", () -> new DemonicBlockBlock());
 	public static final RegistryObject<Block> DEMONIC_ENCHANT_TABLE = REGISTRY.register("demonic_enchant_table",
 			() -> new DemonicEnchantTableBlock());
+	public static final RegistryObject<Block> DEMONIC_CIRCLEE = REGISTRY.register("demonic_circlee", () -> new DemonicCircleeBlock());
+	public static final RegistryObject<Block> A = REGISTRY.register("a", () -> new ABlock());
+	public static final RegistryObject<Block> S = REGISTRY.register("s", () -> new SBlock());
+	public static final RegistryObject<Block> D = REGISTRY.register("d", () -> new DBlock());
+	public static final RegistryObject<Block> F = REGISTRY.register("f", () -> new FBlock());
+	public static final RegistryObject<Block> G = REGISTRY.register("g", () -> new GBlock());
+	public static final RegistryObject<Block> H = REGISTRY.register("h", () -> new HBlock());
+	public static final RegistryObject<Block> J = REGISTRY.register("j", () -> new JBlock());
+	public static final RegistryObject<Block> K = REGISTRY.register("k", () -> new KBlock());
+	public static final RegistryObject<Block> L = REGISTRY.register("l", () -> new LBlock());
+	public static final RegistryObject<Block> M = REGISTRY.register("m", () -> new MBlock());
+	public static final RegistryObject<Block> N = REGISTRY.register("n", () -> new NBlock());
+	public static final RegistryObject<Block> O = REGISTRY.register("o", () -> new OBlock());
+	public static final RegistryObject<Block> P = REGISTRY.register("p", () -> new PBlock());
+	public static final RegistryObject<Block> R = REGISTRY.register("r", () -> new RBlock());
+	public static final RegistryObject<Block> I = REGISTRY.register("i", () -> new IBlock());
+	public static final RegistryObject<Block> Z = REGISTRY.register("z", () -> new ZBlock());
+	public static final RegistryObject<Block> X = REGISTRY.register("x", () -> new XBlock());
+	public static final RegistryObject<Block> C = REGISTRY.register("c", () -> new CBlock());
+	public static final RegistryObject<Block> V = REGISTRY.register("v", () -> new VBlock());
+	public static final RegistryObject<Block> W = REGISTRY.register("w", () -> new WBlock());
+	public static final RegistryObject<Block> E = REGISTRY.register("e", () -> new EBlock());
+	public static final RegistryObject<Block> T = REGISTRY.register("t", () -> new TBlock());
+	public static final RegistryObject<Block> Y = REGISTRY.register("y", () -> new YBlock());
+	public static final RegistryObject<Block> U = REGISTRY.register("u", () -> new UBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
