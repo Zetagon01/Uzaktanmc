@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.4,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Candy_OresBlock"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CandyBar"
+    },
+    "name": "candy_bar_recipe",
+    "namespace": "mod"
+  }
+}

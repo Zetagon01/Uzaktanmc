@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "the_wonderland:candy_bar"
+    },
+    "1": {
+      "item": "the_wonderland:candy_bar"
+    },
+    "2": {
+      "item": "the_wonderland:candy_bar"
+    },
+    "3": {
+      "item": "the_wonderland:candy_bar"
+    },
+    "5": {
+      "item": "the_wonderland:candy_bar"
+    }
+  },
+  "result": {
+    "item": "the_wonderland:candy_armor_armor_helmet",
+    "count": 1
+  }
+}
