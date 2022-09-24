@@ -25,6 +25,7 @@ import net.mcreator.thewonderland.item.SoulaletHoeItem;
 import net.mcreator.thewonderland.item.SoulaletAxeItem;
 import net.mcreator.thewonderland.item.SoulItem;
 import net.mcreator.thewonderland.item.SoulArmorsArmorItem;
+import net.mcreator.thewonderland.item.Lv1DemonSwordItem;
 import net.mcreator.thewonderland.item.IcyToolsSwordItem;
 import net.mcreator.thewonderland.item.IcyToolsShovelItem;
 import net.mcreator.thewonderland.item.IcyToolsPickaxeItem;
@@ -40,6 +41,7 @@ import net.mcreator.thewonderland.item.Candy_ToolsPickaxeItem;
 import net.mcreator.thewonderland.item.Candy_ToolsHoeItem;
 import net.mcreator.thewonderland.item.Candy_ToolsAxeItem;
 import net.mcreator.thewonderland.item.Candy_OresDustItem;
+import net.mcreator.thewonderland.item.Candy_ArmorArmorItem;
 import net.mcreator.thewonderland.item.CandyBarItem;
 import net.mcreator.thewonderland.TheWonderlandMod;
 
@@ -122,11 +124,20 @@ public class TheWonderlandModItems {
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> DEMONIC_CIRCLEE = block(TheWonderlandModBlocks.DEMONIC_CIRCLEE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> A = block(TheWonderlandModBlocks.A, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> CANDY_ARMOR_ARMOR_HELMET = REGISTRY.register("candy_armor_armor_helmet",
+			() -> new Candy_ArmorArmorItem.Helmet());
+	public static final RegistryObject<Item> CANDY_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("candy_armor_armor_chestplate",
+			() -> new Candy_ArmorArmorItem.Chestplate());
+	public static final RegistryObject<Item> CANDY_ARMOR_ARMOR_LEGGINGS = REGISTRY.register("candy_armor_armor_leggings",
+			() -> new Candy_ArmorArmorItem.Leggings());
+	public static final RegistryObject<Item> CANDY_ARMOR_ARMOR_BOOTS = REGISTRY.register("candy_armor_armor_boots",
+			() -> new Candy_ArmorArmorItem.Boots());
 	public static final RegistryObject<Item> S = block(TheWonderlandModBlocks.S, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> D = block(TheWonderlandModBlocks.D, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> F = block(TheWonderlandModBlocks.F, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> G = block(TheWonderlandModBlocks.G, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> H = block(TheWonderlandModBlocks.H, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> LV_1_DEMON_SWORD = REGISTRY.register("lv_1_demon_sword", () -> new Lv1DemonSwordItem());
 	public static final RegistryObject<Item> J = block(TheWonderlandModBlocks.J, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> K = block(TheWonderlandModBlocks.K, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> L = block(TheWonderlandModBlocks.L, CreativeModeTab.TAB_BUILDING_BLOCKS);

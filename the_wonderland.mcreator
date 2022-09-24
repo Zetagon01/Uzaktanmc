@@ -1029,15 +1029,6 @@
       "path": "~/Demon Biome"
     },
     {
-      "name": "DemonicCirclee",
-      "type": "block",
-      "sortid": 102,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "demonic_circlee",
-      "path": "~/Demon Biome/DemonicCircle"
-    },
-    {
       "name": "A",
       "type": "block",
       "sortid": 103,
@@ -1047,12 +1038,12 @@
       "path": "~/Demon Biome/DemonicCircle"
     },
     {
-      "name": "S",
+      "name": "C",
       "type": "block",
-      "sortid": 104,
+      "sortid": 120,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "s",
+      "registry_name": "c",
       "path": "~/Demon Biome/DemonicCircle"
     },
     {
@@ -1062,6 +1053,24 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "d",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "DemonicCrafting",
+      "type": "gui",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_crafting",
+      "path": "~/Demon Biome"
+    },
+    {
+      "name": "E",
+      "type": "block",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "e",
       "path": "~/Demon Biome/DemonicCircle"
     },
     {
@@ -1089,6 +1098,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "h",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
+      "name": "I",
+      "type": "block",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i",
       "path": "~/Demon Biome/DemonicCircle"
     },
     {
@@ -1137,6 +1155,15 @@
       "path": "~/Demon Biome/DemonicCircle"
     },
     {
+      "name": "DemonicCirclee",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_circlee",
+      "path": "~/Demon Biome/DemonicCircle"
+    },
+    {
       "name": "O",
       "type": "block",
       "sortid": 114,
@@ -1164,39 +1191,30 @@
       "path": "~/Demon Biome/DemonicCircle"
     },
     {
-      "name": "I",
+      "name": "S",
       "type": "block",
-      "sortid": 117,
+      "sortid": 104,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "i",
+      "registry_name": "s",
       "path": "~/Demon Biome/DemonicCircle"
     },
     {
-      "name": "Z",
+      "name": "T",
       "type": "block",
-      "sortid": 118,
+      "sortid": 124,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "z",
+      "registry_name": "t",
       "path": "~/Demon Biome/DemonicCircle"
     },
     {
-      "name": "X",
+      "name": "U",
       "type": "block",
-      "sortid": 119,
+      "sortid": 126,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "x",
-      "path": "~/Demon Biome/DemonicCircle"
-    },
-    {
-      "name": "C",
-      "type": "block",
-      "sortid": 120,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "c",
+      "registry_name": "u",
       "path": "~/Demon Biome/DemonicCircle"
     },
     {
@@ -1218,21 +1236,12 @@
       "path": "~/Demon Biome/DemonicCircle"
     },
     {
-      "name": "E",
+      "name": "X",
       "type": "block",
-      "sortid": 123,
+      "sortid": 119,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "e",
-      "path": "~/Demon Biome/DemonicCircle"
-    },
-    {
-      "name": "T",
-      "type": "block",
-      "sortid": 124,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "t",
+      "registry_name": "x",
       "path": "~/Demon Biome/DemonicCircle"
     },
     {
@@ -1245,22 +1254,13 @@
       "path": "~/Demon Biome/DemonicCircle"
     },
     {
-      "name": "U",
+      "name": "Z",
       "type": "block",
-      "sortid": 126,
+      "sortid": 118,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "u",
+      "registry_name": "z",
       "path": "~/Demon Biome/DemonicCircle"
-    },
-    {
-      "name": "DemonicCrafting",
-      "type": "gui",
-      "sortid": 127,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "demonic_crafting",
-      "path": "~/Demon Biome"
     },
     {
       "name": "Demoniccraft",
@@ -1290,6 +1290,75 @@
         ]
       },
       "path": "~/Demon Biome"
+    },
+    {
+      "name": "Candy_ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_armor_armor_leggings_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "CandyBarRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_bar_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_armor_armor_helmet_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_armor_armor_body_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Lv1DemonSword",
+      "type": "item",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lv_1_demon_sword",
+      "path": "~/Demon Biome"
+    },
+    {
+      "name": "Candy_ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_armor_armor_boots_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ArmorArmor",
+      "type": "armor",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Candy Tools"
     }
   ],
   "variable_elements": [],
@@ -1297,109 +1366,80 @@
   "language_map": {
     "en_us": {
       "block.the_wonderland.ghost_wood": "Ghost Wood",
-      "block.the_wonderland.souldirtt": "Soul Dirt Block",
       "block.the_wonderland.raw_stone_sugar": "Raw Stone Sugar",
-      "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
-      "block.the_wonderland.candy_ores_block": "Block of Candy_Ores",
-      "item.the_wonderland.soulalet_axe": "Soulalet Axe",
       "block.the_wonderland.ghost_fence": "Ghost Fence",
-      "block.the_wonderland.candy_woods_stairs": "Candy_Woods Stairs",
+      "item.the_wonderland.soulalet_axe": "Soulalet Axe",
       "item.the_wonderland.soul_armors_armor_chestplate": "SoulArmors Chestplate",
-      "block.the_wonderland.demonic_enchant_table": "Demonic Enchant Table",
-      "block.the_wonderland.candy_leaves": "Candy Leaves",
       "block.the_wonderland.candy_woods_planks": "Candy_Woods Planks",
       "block.the_wonderland.sweet_stone": "Sweet Stone",
-      "block.the_wonderland.candy_ores_ore": "Candy_Ores Ore",
       "block.the_wonderland.ghost_stairs": "Ghost Stairs",
-      "block.the_wonderland.demonic_circle": "Demonic Circle",
-      "fluid.the_wonderland.chocolate": "Chocolate",
-      "block.the_wonderland.icy_block": "Block of Icy",
-      "block.the_wonderland.w": "Demonic Circlee",
-      "block.the_wonderland.x": "Demonic Circlee",
-      "block.the_wonderland.u": "Demonic Circlee",
-      "block.the_wonderland.v": "Demonic Circlee",
-      "block.the_wonderland.s": "Demonic Circlee",
-      "block.the_wonderland.t": "Demonic Circlee",
       "biome.the_wonderland.candyland": "Candyland",
-      "block.the_wonderland.r": "Demonic Circlee",
-      "block.the_wonderland.candydirt": "Candy Dirt Block",
-      "item.the_wonderland.soulalet_pickaxe": "Soulalet Pickaxe",
-      "block.the_wonderland.o": "Demonic Circlee",
       "item.the_wonderland.enchanted_demonic_essence": "Enchanted Demonic Essence",
-      "block.the_wonderland.p": "Demonic Circlee",
-      "block.the_wonderland.candy_woods_fence_gate": "Candy_Woods Fence Gate",
-      "block.the_wonderland.m": "Demonic Circlee",
-      "block.the_wonderland.n": "Demonic Circlee",
       "block.the_wonderland.ghost_leaves": "Ghost Leaves",
       "item.the_wonderland.icy_tools_sword": "IcyTools Sword",
-      "block.the_wonderland.k": "Demonic Circlee",
-      "block.the_wonderland.l": "Demonic Circlee",
-      "block.the_wonderland.i": "Demonic Circlee",
-      "block.the_wonderland.j": "Demonic Circlee",
-      "block.the_wonderland.candy_woods_log": "Candy_Woods Log",
-      "block.the_wonderland.g": "Demonic Circlee",
-      "block.the_wonderland.h": "Demonic Circlee",
-      "block.the_wonderland.e": "Demonic Circlee",
-      "item.the_wonderland.candy_tools_hoe": "Candy_Tools Hoe",
-      "block.the_wonderland.f": "Demonic Circlee",
-      "block.the_wonderland.c": "Demonic Circlee",
-      "block.the_wonderland.d": "Demonic Circlee",
-      "block.the_wonderland.a": "Demonic Circlee",
       "biome.the_wonderland.ice_biome": "Ice Biome",
       "block.the_wonderland.candy_woods_wood": "Candy_Woods Wood",
-      "item.the_wonderland.soul_armors_armor_leggings": "SoulArmors Leggings",
       "item.the_wonderland.soulalet_shovel": "Soulalet Shovel",
       "item.the_wonderland.candy_bar": "Candy Bar",
       "item.the_wonderland.soul_armors_armor_boots": "SoulArmors Boots",
-      "biome.the_wonderland.demonic_area": "Demonic Area",
-      "item.the_wonderland.icy_tools_hoe": "IcyTools Hoe",
-      "block.the_wonderland.soul_block": "Soul Block",
-      "block.the_wonderland.demonic_circlee": "Demonic Circlee",
-      "item.the_wonderland.candy_tools_shovel": "Candy_Tools Shovel",
       "block.the_wonderland.icy_ore": "Icy Ore",
       "biome.the_wonderland.ghost_biome": "Ghost Biome",
-      "block.the_wonderland.candy_woods_button": "Candy_Woods Button",
-      "block.the_wonderland.ghost_log": "Ghost Log",
-      "item.the_wonderland.demonic_essence": "Demonic Essence",
-      "item.the_wonderland.chocolate_bucket": "Chocolate Bucket",
       "item.the_wonderland.icy": "Icy",
       "item.the_wonderland.soulalet_sword": "Soulalet Sword",
       "block.the_wonderland.ghost_pressure_plate": "Ghost Pressure Plate",
-      "block.the_wonderland.ghost_button": "Ghost Button",
       "block.the_wonderland.soul_grass": "Soul Grass Block",
       "item.the_wonderland.candy_tools_pickaxe": "Candy_Tools Pickaxe",
-      "item.the_wonderland.soulalet_hoe": "Soulalet Hoe",
       "item.the_wonderland.candy_ores_dust": "Candy_Ores",
       "block.the_wonderland.demonic_block": "Demonic Block",
-      "block.the_wonderland.y": "Demonic Circlee",
-      "block.the_wonderland.ghost_fence_gate": "Ghost Fence Gate",
-      "block.the_wonderland.z": "Demonic Circlee",
       "entity.the_wonderland.imp": "Imp",
       "item.the_wonderland.soul_armors_armor_helmet": "SoulArmors Helmet",
       "item.the_wonderland.candy_tools_axe": "Candy_Tools Axe",
       "item.the_wonderland.icy_tools_shovel": "IcyTools Shovel",
-      "item.the_wonderland.candy_tools_sword": "Candy_Tools Sword",
       "block.the_wonderland.ghost_planks": "Ghost Planks",
+      "item.the_wonderland.soul": "Soul",
+      "block.the_wonderland.candy_sidewalk": "Candy Sidewalk",
+      "block.the_wonderland.candy_woods_fence": "Candy_Woods Fence",
+      "block.the_wonderland.ghost_stone": "Ghost Stone",
+      "block.the_wonderland.souldirtt": "Soul Dirt Block",
+      "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
+      "block.the_wonderland.candy_ores_block": "Block of Candy_Ores",
+      "block.the_wonderland.candy_woods_stairs": "Candy_Woods Stairs",
+      "block.the_wonderland.demonic_enchant_table": "Demonic Enchant Table",
+      "block.the_wonderland.candy_leaves": "Candy Leaves",
+      "block.the_wonderland.candy_ores_ore": "Candy_Ores Ore",
+      "block.the_wonderland.demonic_circle": "Demonic Circle",
+      "fluid.the_wonderland.chocolate": "Chocolate",
+      "block.the_wonderland.icy_block": "Block of Icy",
+      "item.the_wonderland.soulalet_pickaxe": "Soulalet Pickaxe",
+      "block.the_wonderland.candydirt": "Candy Dirt Block",
+      "block.the_wonderland.candy_woods_fence_gate": "Candy_Woods Fence Gate",
+      "block.the_wonderland.candy_woods_log": "Candy_Woods Log",
+      "item.the_wonderland.candy_tools_hoe": "Candy_Tools Hoe",
+      "item.the_wonderland.soul_armors_armor_leggings": "SoulArmors Leggings",
+      "biome.the_wonderland.demonic_area": "Demonic Area",
+      "item.the_wonderland.icy_tools_hoe": "IcyTools Hoe",
+      "block.the_wonderland.soul_block": "Soul Block",
+      "item.the_wonderland.candy_tools_shovel": "Candy_Tools Shovel",
+      "block.the_wonderland.candy_woods_button": "Candy_Woods Button",
+      "block.the_wonderland.ghost_log": "Ghost Log",
+      "item.the_wonderland.demonic_essence": "Demonic Essence",
+      "item.the_wonderland.chocolate_bucket": "Chocolate Bucket",
+      "block.the_wonderland.ghost_button": "Ghost Button",
+      "item.the_wonderland.soulalet_hoe": "Soulalet Hoe",
+      "block.the_wonderland.ghost_fence_gate": "Ghost Fence Gate",
+      "item.the_wonderland.candy_tools_sword": "Candy_Tools Sword",
       "item.the_wonderland.imp_spawn_egg": "Imp Spawn Egg",
       "item.the_wonderland.icy_tools_pickaxe": "IcyTools Pickaxe",
       "block.the_wonderland.chocolate": "Chocolate",
-      "item.the_wonderland.soul": "Soul",
-      "block.the_wonderland.candy_sidewalk": "Candy Sidewalk",
       "block.the_wonderland.candy_grass_block": "Candy Grass Block",
       "item.the_wonderland.icy_tools_axe": "IcyTools Axe",
-      "block.the_wonderland.candy_woods_fence": "Candy_Woods Fence",
       "block.the_wonderland.ghost_slab": "Ghost Slab",
-      "block.the_wonderland.candy_woods_pressure_plate": "Candy_Woods Pressure Plate",
-      "block.the_wonderland.ghost_stone": "Ghost Stone"
+      "block.the_wonderland.candy_woods_pressure_plate": "Candy_Woods Pressure Plate"
     }
   },
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "Candy Biome",
-        "children": []
-      },
       {
         "name": "Candy Tools",
         "children": []
