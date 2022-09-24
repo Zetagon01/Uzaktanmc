@@ -1359,6 +1359,68 @@
         "ec": true
       },
       "path": "~/Candy Tools"
+    },
+    {
+      "name": "DemonicEnchantTableBlogaSagTiklandiginda",
+      "type": "procedure",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_enchant_table_bloga_sag_tiklandiginda",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Demon Biome"
+    },
+    {
+      "name": "DemonicEnchantTableUpdateTick",
+      "type": "procedure",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_enchant_table_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Demon Biome"
     }
   ],
   "variable_elements": [],
@@ -1370,13 +1432,13 @@
       "block.the_wonderland.raw_stone_sugar": "Raw Stone Sugar",
       "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
       "block.the_wonderland.candy_ores_block": "Block of Candy_Ores",
-      "item.the_wonderland.soulalet_axe": "Soulalet Axe",
       "block.the_wonderland.ghost_fence": "Ghost Fence",
+      "item.the_wonderland.soulalet_axe": "Soulalet Axe",
       "block.the_wonderland.candy_woods_stairs": "Candy_Woods Stairs",
       "item.the_wonderland.soul_armors_armor_chestplate": "SoulArmors Chestplate",
       "block.the_wonderland.demonic_enchant_table": "Demonic Enchant Table",
-      "block.the_wonderland.candy_leaves": "Candy Leaves",
       "block.the_wonderland.candy_woods_planks": "Candy_Woods Planks",
+      "block.the_wonderland.candy_leaves": "Candy Leaves",
       "block.the_wonderland.sweet_stone": "Sweet Stone",
       "block.the_wonderland.candy_ores_ore": "Candy_Ores Ore",
       "block.the_wonderland.ghost_stairs": "Ghost Stairs",
@@ -1403,6 +1465,7 @@
       "block.the_wonderland.soul_block": "Soul Block",
       "item.the_wonderland.candy_tools_shovel": "Candy_Tools Shovel",
       "block.the_wonderland.icy_ore": "Icy Ore",
+      "item.the_wonderland.lv_1_demon_sword": "Lv 1 Demon Sword",
       "biome.the_wonderland.ghost_biome": "Ghost Biome",
       "block.the_wonderland.candy_woods_button": "Candy_Woods Button",
       "block.the_wonderland.ghost_log": "Ghost Log",
