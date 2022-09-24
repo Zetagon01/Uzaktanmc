@@ -1423,13 +1423,71 @@
       "path": "~/Demon Biome"
     },
     {
-      "name": "PirateCutlass",
-      "type": "item",
+      "name": "RCP",
+      "type": "procedure",
       "sortid": 131,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pirate_cutlass",
-      "path": "~/Neutral"
+      "registry_name": "rcp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Demon Biome"
+    },
+    {
+      "name": "Rcpcall",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcpcall",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Demon Biome"
+    },
+    {
+      "name": "Lv2DemonicSword",
+      "type": "tool",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lv_2_demonic_sword",
+      "path": "~/Demon Biome"
     }
   ],
   "variable_elements": [],
@@ -1462,7 +1520,6 @@
       "block.the_wonderland.k": "Demonic Circlee",
       "block.the_wonderland.l": "Demonic Circlee",
       "block.the_wonderland.i": "Demonic Circlee",
-      "item.the_wonderland.pirate_cutlass": "Pirate Cutlass",
       "block.the_wonderland.j": "Demonic Circlee",
       "block.the_wonderland.g": "Demonic Circlee",
       "block.the_wonderland.h": "Demonic Circlee",
@@ -1497,6 +1554,7 @@
       "item.the_wonderland.candy_armor_armor_helmet": "Candy_Armor Helmet",
       "block.the_wonderland.candy_woods_fence": "Candy_Woods Fence",
       "block.the_wonderland.ghost_stone": "Ghost Stone",
+      "item.the_wonderland.lv_2_demonic_sword": "Lv 2 Demonic Sword",
       "item.the_wonderland.candy_armor_armor_boots": "Candy_Armor Boots",
       "block.the_wonderland.souldirtt": "Soul Dirt Block",
       "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
@@ -1544,10 +1602,6 @@
     "children": [
       {
         "name": "Candy Tools",
-        "children": []
-      },
-      {
-        "name": "Neutral",
         "children": []
       },
       {

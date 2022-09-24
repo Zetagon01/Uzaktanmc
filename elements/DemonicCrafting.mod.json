@@ -186,6 +186,20 @@
           "x": 258,
           "y": 62
         }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "ENCHANT",
+          "onClick": {
+            "name": "Rcpcall"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "ENCHANT",
+          "x": 231,
+          "y": 89
+        }
       }
     ],
     "gridSettings": {
