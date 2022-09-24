@@ -1424,11 +1424,20 @@
     },
     {
       "name": "PirateCutlass",
-      "type": "item",
+      "type": "tool",
       "sortid": 131,
       "compiles": true,
       "locked_code": false,
       "registry_name": "pirate_cutlass",
+      "path": "~/Neutral"
+    },
+    {
+      "name": "HexBall",
+      "type": "rangeditem",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hex_ball",
       "path": "~/Neutral"
     }
   ],
@@ -1462,8 +1471,8 @@
       "block.the_wonderland.k": "Demonic Circlee",
       "block.the_wonderland.l": "Demonic Circlee",
       "block.the_wonderland.i": "Demonic Circlee",
-      "item.the_wonderland.pirate_cutlass": "Pirate Cutlass",
       "block.the_wonderland.j": "Demonic Circlee",
+      "item.the_wonderland.pirate_cutlass": "Pirate Cutlass",
       "block.the_wonderland.g": "Demonic Circlee",
       "block.the_wonderland.h": "Demonic Circlee",
       "block.the_wonderland.e": "Demonic Circlee",
@@ -1506,6 +1515,7 @@
       "block.the_wonderland.candy_leaves": "Candy Leaves",
       "item.the_wonderland.candy_armor_armor_chestplate": "Candy_Armor Chestplate",
       "block.the_wonderland.candy_ores_ore": "Candy_Ores Ore",
+      "item.the_wonderland.hex_ball": "Hex Ball",
       "block.the_wonderland.demonic_circle": "Demonic Circle",
       "fluid.the_wonderland.chocolate": "Chocolate",
       "block.the_wonderland.icy_block": "Block of Icy",
