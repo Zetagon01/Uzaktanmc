@@ -1547,6 +1547,10 @@
         "children": []
       },
       {
+        "name": "Neutral",
+        "children": []
+      },
+      {
         "name": "Ghost Biome",
         "children": []
       },
@@ -1562,10 +1566,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Neutral",
-        "children": []
       }
     ]
   },
