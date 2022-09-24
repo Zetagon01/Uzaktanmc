@@ -128,7 +128,10 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "Demoniccraft"
+      "name": "DemonicEnchantTableBlogaSagTiklandiginda"
+    },
+    "onTickUpdate": {
+      "name": "DemonicEnchantTableUpdateTick"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

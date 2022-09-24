@@ -26,6 +26,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
@@ -37,7 +38,8 @@ import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.thewonderland.world.inventory.DemonicCraftingMenu;
-import net.mcreator.thewonderland.procedures.DemoniccraftProcedure;
+import net.mcreator.thewonderland.procedures.DemonicEnchantTableUpdateTickProcedure;
+import net.mcreator.thewonderland.procedures.DemonicEnchantTableBlogaSagTiklandigindaProcedure;
 import net.mcreator.thewonderland.init.TheWonderlandModBlocks;
 import net.mcreator.thewonderland.block.entity.DemonicEnchantTableBlockEntity;
 
@@ -62,6 +64,16 @@ public class DemonicEnchantTableBlock extends Block
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+
+		DemonicEnchantTableUpdateTickProcedure.execute(world, x, y, z);
 	}
 
 	@OnlyIn(Dist.CLIENT)
@@ -107,7 +119,7 @@ public class DemonicEnchantTableBlock extends Block
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
 
-		DemoniccraftProcedure.execute(world, x, y, z);
+		DemonicEnchantTableBlogaSagTiklandigindaProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 
