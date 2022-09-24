@@ -5,11 +5,15 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.mcreator.thewonderland.world.inventory.DemonicCraftingMenu;
+import net.mcreator.thewonderland.network.DemonicCraftingButtonMessage;
+import net.mcreator.thewonderland.TheWonderlandMod;
 
 import java.util.HashMap;
 
@@ -80,5 +84,11 @@ public class DemonicCraftingScreen extends AbstractContainerScreen<DemonicCrafti
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+		this.addRenderableWidget(new Button(this.leftPos + 107, this.topPos + 71, 61, 20, new TextComponent("ENCHANT"), e -> {
+			if (true) {
+				TheWonderlandMod.PACKET_HANDLER.sendToServer(new DemonicCraftingButtonMessage(0, x, y, z));
+				DemonicCraftingButtonMessage.handleButtonAction(entity, 0, x, y, z);
+			}
+		}));
 	}
 }

@@ -26,6 +26,7 @@ import net.mcreator.thewonderland.item.SoulaletAxeItem;
 import net.mcreator.thewonderland.item.SoulItem;
 import net.mcreator.thewonderland.item.SoulArmorsArmorItem;
 import net.mcreator.thewonderland.item.PirateCutlassItem;
+import net.mcreator.thewonderland.item.Lv2DemonicSwordItem;
 import net.mcreator.thewonderland.item.Lv1DemonSwordItem;
 import net.mcreator.thewonderland.item.IcyToolsSwordItem;
 import net.mcreator.thewonderland.item.IcyToolsShovelItem;
@@ -160,6 +161,7 @@ public class TheWonderlandModItems {
 	public static final RegistryObject<Item> U = block(TheWonderlandModBlocks.U, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> PIRATE_CUTLASS = REGISTRY.register("pirate_cutlass", () -> new PirateCutlassItem());
 	public static final RegistryObject<Item> HEX_BALL = REGISTRY.register("hex_ball", () -> new HexBallItem());
+	public static final RegistryObject<Item> LV_2_DEMONIC_SWORD = REGISTRY.register("lv_2_demonic_sword", () -> new Lv2DemonicSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

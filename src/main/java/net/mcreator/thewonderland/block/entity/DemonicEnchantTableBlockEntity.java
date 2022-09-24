@@ -110,6 +110,8 @@ public class DemonicEnchantTableBlockEntity extends RandomizableContainerBlockEn
 
 	@Override
 	public boolean canPlaceItem(int index, ItemStack stack) {
+		if (index == 9)
+			return false;
 		return true;
 	}
 

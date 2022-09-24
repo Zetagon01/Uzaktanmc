@@ -1424,7 +1424,7 @@
     },
     {
       "name": "PirateCutlass",
-      "type": "tool",
+      "type": "item",
       "sortid": 131,
       "compiles": true,
       "locked_code": false,
@@ -1439,6 +1439,73 @@
       "locked_code": false,
       "registry_name": "hex_ball",
       "path": "~/Neutral"
+    },
+    {
+      "name": "Rcpcall",
+      "type": "procedure",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcpcall",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Demon Biome"
+    },
+    {
+      "name": "Lv2DemonicSword",
+      "type": "tool",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lv_2_demonic_sword",
+      "path": "~/Demon Biome"
+    },
+    {
+      "name": "RCP",
+      "type": "procedure",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rcp",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Demon Biome"
     }
   ],
   "variable_elements": [],
@@ -1447,8 +1514,8 @@
     "en_us": {
       "block.the_wonderland.ghost_wood": "Ghost Wood",
       "block.the_wonderland.raw_stone_sugar": "Raw Stone Sugar",
-      "item.the_wonderland.soulalet_axe": "Soulalet Axe",
       "block.the_wonderland.ghost_fence": "Ghost Fence",
+      "item.the_wonderland.soulalet_axe": "Soulalet Axe",
       "item.the_wonderland.soul_armors_armor_chestplate": "SoulArmors Chestplate",
       "block.the_wonderland.candy_woods_planks": "Candy_Woods Planks",
       "block.the_wonderland.sweet_stone": "Sweet Stone",
@@ -1472,7 +1539,6 @@
       "block.the_wonderland.l": "Demonic Circlee",
       "block.the_wonderland.i": "Demonic Circlee",
       "block.the_wonderland.j": "Demonic Circlee",
-      "item.the_wonderland.pirate_cutlass": "Pirate Cutlass",
       "block.the_wonderland.g": "Demonic Circlee",
       "block.the_wonderland.h": "Demonic Circlee",
       "block.the_wonderland.e": "Demonic Circlee",
@@ -1491,9 +1557,9 @@
       "biome.the_wonderland.ghost_biome": "Ghost Biome",
       "item.the_wonderland.icy": "Icy",
       "item.the_wonderland.soulalet_sword": "Soulalet Sword",
-      "item.the_wonderland.candy_tools_pickaxe": "Candy_Tools Pickaxe",
-      "block.the_wonderland.soul_grass": "Soul Grass Block",
       "block.the_wonderland.ghost_pressure_plate": "Ghost Pressure Plate",
+      "block.the_wonderland.soul_grass": "Soul Grass Block",
+      "item.the_wonderland.candy_tools_pickaxe": "Candy_Tools Pickaxe",
       "item.the_wonderland.candy_ores_dust": "Candy_Ores",
       "block.the_wonderland.demonic_block": "Demonic Block",
       "entity.the_wonderland.imp": "Imp",
@@ -1515,7 +1581,6 @@
       "block.the_wonderland.candy_leaves": "Candy Leaves",
       "item.the_wonderland.candy_armor_armor_chestplate": "Candy_Armor Chestplate",
       "block.the_wonderland.candy_ores_ore": "Candy_Ores Ore",
-      "item.the_wonderland.hex_ball": "Hex Ball",
       "block.the_wonderland.demonic_circle": "Demonic Circle",
       "fluid.the_wonderland.chocolate": "Chocolate",
       "block.the_wonderland.icy_block": "Block of Icy",
@@ -1554,10 +1619,6 @@
     "children": [
       {
         "name": "Candy Tools",
-        "children": []
-      },
-      {
-        "name": "Neutral",
         "children": []
       },
       {
