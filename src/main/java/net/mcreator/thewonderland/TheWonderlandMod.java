@@ -32,7 +32,6 @@ import net.mcreator.thewonderland.init.TheWonderlandModFluids;
 import net.mcreator.thewonderland.init.TheWonderlandModFeatures;
 import net.mcreator.thewonderland.init.TheWonderlandModEntities;
 import net.mcreator.thewonderland.init.TheWonderlandModBlocks;
-import net.mcreator.thewonderland.init.TheWonderlandModBlockEntities;
 import net.mcreator.thewonderland.init.TheWonderlandModBiomes;
 
 import java.util.function.Supplier;
@@ -54,7 +53,7 @@ public class TheWonderlandMod {
 		TheWonderlandModBlocks.REGISTRY.register(bus);
 		TheWonderlandModItems.REGISTRY.register(bus);
 		TheWonderlandModEntities.REGISTRY.register(bus);
-		TheWonderlandModBlockEntities.REGISTRY.register(bus);
+
 		TheWonderlandModFeatures.REGISTRY.register(bus);
 		TheWonderlandModFluids.REGISTRY.register(bus);
 
