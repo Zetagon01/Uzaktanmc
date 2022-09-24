@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "the_wonderland:candy_bar"
+    },
+    "2": {
+      "item": "the_wonderland:candy_bar"
+    },
+    "3": {
+      "item": "the_wonderland:candy_bar"
+    },
+    "4": {
+      "item": "the_wonderland:candy_bar"
+    },
+    "5": {
+      "item": "the_wonderland:candy_bar"
+    },
+    "6": {
+      "item": "the_wonderland:candy_bar"
+    },
+    "7": {
+      "item": "the_wonderland:candy_bar"
+    },
+    "8": {
+      "item": "the_wonderland:candy_bar"
+    }
+  },
+  "result": {
+    "item": "the_wonderland:candy_armor_armor_chestplate",
+    "count": 1
+  }
+}

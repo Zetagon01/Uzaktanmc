@@ -1027,25 +1027,96 @@
       "locked_code": false,
       "registry_name": "demonic_enchant_table",
       "path": "~/Demon Biome"
+    },
+    {
+      "name": "CandyBarRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_bar_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ArmorArmor",
+      "type": "armor",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_armor_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_armor_armor_helmet_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ArmorArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_armor_armor_body_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_armor_armor_leggings_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Candy_ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "candy_armor_armor_boots_recipe",
+      "path": "~/Candy Tools"
+    },
+    {
+      "name": "Lv1DemonSword",
+      "type": "item",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lv_1_demon_sword",
+      "path": "~/Demon Biome"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.the_wonderland.candy_armor_armor_boots": "Candy_Armor Boots",
       "block.the_wonderland.souldirtt": "Soul Dirt Block",
       "block.the_wonderland.ghost_wood": "Ghost Wood",
       "block.the_wonderland.raw_stone_sugar": "Raw Stone Sugar",
       "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
       "block.the_wonderland.candy_ores_block": "Block of Candy_Ores",
-      "item.the_wonderland.soulalet_axe": "Soulalet Axe",
       "block.the_wonderland.ghost_fence": "Ghost Fence",
+      "item.the_wonderland.soulalet_axe": "Soulalet Axe",
       "block.the_wonderland.candy_woods_stairs": "Candy_Woods Stairs",
       "item.the_wonderland.soul_armors_armor_chestplate": "SoulArmors Chestplate",
       "block.the_wonderland.demonic_enchant_table": "Demonic Enchant Table",
       "block.the_wonderland.candy_leaves": "Candy Leaves",
       "block.the_wonderland.candy_woods_planks": "Candy_Woods Planks",
       "block.the_wonderland.sweet_stone": "Sweet Stone",
+      "item.the_wonderland.candy_armor_armor_chestplate": "Candy_Armor Chestplate",
       "block.the_wonderland.candy_ores_ore": "Candy_Ores Ore",
       "block.the_wonderland.ghost_stairs": "Ghost Stairs",
       "block.the_wonderland.demonic_circle": "Demonic Circle",
@@ -1071,6 +1142,8 @@
       "block.the_wonderland.soul_block": "Soul Block",
       "item.the_wonderland.candy_tools_shovel": "Candy_Tools Shovel",
       "block.the_wonderland.icy_ore": "Icy Ore",
+      "item.the_wonderland.candy_armor_armor_leggings": "Candy_Armor Leggings",
+      "item.the_wonderland.lv_1_demon_sword": "Lv 1 Demon Sword",
       "biome.the_wonderland.ghost_biome": "Ghost Biome",
       "block.the_wonderland.candy_woods_button": "Candy_Woods Button",
       "block.the_wonderland.ghost_log": "Ghost Log",
@@ -1099,6 +1172,7 @@
       "block.the_wonderland.candy_sidewalk": "Candy Sidewalk",
       "block.the_wonderland.candy_grass_block": "Candy Grass Block",
       "item.the_wonderland.icy_tools_axe": "IcyTools Axe",
+      "item.the_wonderland.candy_armor_armor_helmet": "Candy_Armor Helmet",
       "block.the_wonderland.candy_woods_fence": "Candy_Woods Fence",
       "block.the_wonderland.ghost_slab": "Ghost Slab",
       "block.the_wonderland.candy_woods_pressure_plate": "Candy_Woods Pressure Plate",
@@ -1108,10 +1182,6 @@
   "foldersRoot": {
     "name": "~",
     "children": [
-      {
-        "name": "Candy Biome",
-        "children": []
-      },
       {
         "name": "Candy Tools",
         "children": []

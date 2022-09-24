@@ -21,6 +21,7 @@ import net.mcreator.thewonderland.item.SoulaletHoeItem;
 import net.mcreator.thewonderland.item.SoulaletAxeItem;
 import net.mcreator.thewonderland.item.SoulItem;
 import net.mcreator.thewonderland.item.SoulArmorsArmorItem;
+import net.mcreator.thewonderland.item.Lv1DemonSwordItem;
 import net.mcreator.thewonderland.item.IcyToolsSwordItem;
 import net.mcreator.thewonderland.item.IcyToolsShovelItem;
 import net.mcreator.thewonderland.item.IcyToolsPickaxeItem;
@@ -36,6 +37,7 @@ import net.mcreator.thewonderland.item.Candy_ToolsPickaxeItem;
 import net.mcreator.thewonderland.item.Candy_ToolsHoeItem;
 import net.mcreator.thewonderland.item.Candy_ToolsAxeItem;
 import net.mcreator.thewonderland.item.Candy_OresDustItem;
+import net.mcreator.thewonderland.item.Candy_ArmorArmorItem;
 import net.mcreator.thewonderland.item.CandyBarItem;
 import net.mcreator.thewonderland.TheWonderlandMod;
 
@@ -116,6 +118,15 @@ public class TheWonderlandModItems {
 	public static final RegistryObject<Item> DEMONIC_BLOCK = block(TheWonderlandModBlocks.DEMONIC_BLOCK, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> DEMONIC_ENCHANT_TABLE = block(TheWonderlandModBlocks.DEMONIC_ENCHANT_TABLE,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> CANDY_ARMOR_ARMOR_HELMET = REGISTRY.register("candy_armor_armor_helmet",
+			() -> new Candy_ArmorArmorItem.Helmet());
+	public static final RegistryObject<Item> CANDY_ARMOR_ARMOR_CHESTPLATE = REGISTRY.register("candy_armor_armor_chestplate",
+			() -> new Candy_ArmorArmorItem.Chestplate());
+	public static final RegistryObject<Item> CANDY_ARMOR_ARMOR_LEGGINGS = REGISTRY.register("candy_armor_armor_leggings",
+			() -> new Candy_ArmorArmorItem.Leggings());
+	public static final RegistryObject<Item> CANDY_ARMOR_ARMOR_BOOTS = REGISTRY.register("candy_armor_armor_boots",
+			() -> new Candy_ArmorArmorItem.Boots());
+	public static final RegistryObject<Item> LV_1_DEMON_SWORD = REGISTRY.register("lv_1_demon_sword", () -> new Lv1DemonSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
