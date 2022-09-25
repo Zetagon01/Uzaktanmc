@@ -1488,6 +1488,15 @@
       "locked_code": false,
       "registry_name": "lv_2_demonic_sword",
       "path": "~/Demon Biome"
+    },
+    {
+      "name": "GoblinSwamp",
+      "type": "biome",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goblin_swamp",
+      "path": "~/Goblin Biome"
     }
   ],
   "variable_elements": [],
@@ -1560,6 +1569,7 @@
       "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
       "block.the_wonderland.candy_ores_block": "Block of Candy_Ores",
       "block.the_wonderland.candy_woods_stairs": "Candy_Woods Stairs",
+      "biome.the_wonderland.goblin_swamp": "Goblin Swamp",
       "block.the_wonderland.demonic_enchant_table": "Demonic Enchant Table",
       "block.the_wonderland.candy_leaves": "Candy Leaves",
       "item.the_wonderland.candy_armor_armor_chestplate": "Candy_Armor Chestplate",
@@ -1620,6 +1630,26 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Goblin Biome",
+        "children": []
+      },
+      {
+        "name": "FireBiome",
+        "children": []
+      },
+      {
+        "name": "DesertBiome",
+        "children": []
+      },
+      {
+        "name": "HumanBiome",
+        "children": []
+      },
+      {
+        "name": "HybridBiome",
+        "children": []
       }
     ]
   },

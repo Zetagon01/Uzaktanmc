@@ -31,6 +31,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
 import net.mcreator.thewonderland.world.biome.IceBiomeBiome;
+import net.mcreator.thewonderland.world.biome.GoblinSwampBiome;
 import net.mcreator.thewonderland.world.biome.GhostBiomeBiome;
 import net.mcreator.thewonderland.world.biome.DemonicAreaBiome;
 import net.mcreator.thewonderland.world.biome.CandylandBiome;
@@ -49,6 +50,7 @@ public class TheWonderlandModBiomes {
 	public static final RegistryObject<Biome> GHOST_BIOME = REGISTRY.register("ghost_biome", () -> GhostBiomeBiome.createBiome());
 	public static final RegistryObject<Biome> DEMONIC_AREA = REGISTRY.register("demonic_area", () -> DemonicAreaBiome.createBiome());
 	public static final RegistryObject<Biome> ICE_BIOME = REGISTRY.register("ice_biome", () -> IceBiomeBiome.createBiome());
+	public static final RegistryObject<Biome> GOBLIN_SWAMP = REGISTRY.register("goblin_swamp", () -> GoblinSwampBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
@@ -57,6 +59,7 @@ public class TheWonderlandModBiomes {
 			GhostBiomeBiome.init();
 			DemonicAreaBiome.init();
 			IceBiomeBiome.init();
+			GoblinSwampBiome.init();
 		});
 	}
 
@@ -83,6 +86,8 @@ public class TheWonderlandModBiomes {
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, DEMONIC_AREA.getId()))));
 						parameters.add(new Pair<>(IceBiomeBiome.PARAMETER_POINT,
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, ICE_BIOME.getId()))));
+						parameters.add(new Pair<>(GoblinSwampBiome.PARAMETER_POINT,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, GOBLIN_SWAMP.getId()))));
 
 						MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters),
 								noiseSource.preset);
@@ -113,6 +118,8 @@ public class TheWonderlandModBiomes {
 									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, ICE_BIOME.getId()),
 											Blocks.SNOW_BLOCK.defaultBlockState(), Blocks.POWDER_SNOW.defaultBlockState(),
 											Blocks.FROSTED_ICE.defaultBlockState()));
+							surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, GOBLIN_SWAMP.getId()),
+									Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),
