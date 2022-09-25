@@ -1,11 +1,25 @@
 
 package net.mcreator.thewonderland.item;
 
-import net.minecraft.world.entity.ai.attributes.Attribute;
-import net.minecraft.world.entity.ai.attributes.Attributes;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
+
+import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.server.level.ServerPlayer;
+
+import net.mcreator.thewonderland.entity.HexBallEntity;
 
 public class HexBallItem extends Item {
-
 	public HexBallItem() {
 		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(100));
 	}
@@ -39,15 +53,10 @@ public class HexBallItem extends Item {
 			double y = entity.getY();
 			double z = entity.getZ();
 			if (true) {
-
 				HexBallEntity entityarrow = HexBallEntity.shoot(world, entity, world.getRandom(), 1f, 10, 5);
-
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
-
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
-
 			}
 		}
 	}
-
 }
