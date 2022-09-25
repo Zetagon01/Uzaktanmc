@@ -1,23 +1,12 @@
 package net.mcreator.thewonderland.world.features.treedecorators;
 
-import net.minecraftforge.registries.ForgeRegistries;
-
-import net.minecraft.world.level.levelgen.feature.treedecorators.TrunkVineDecorator;
-import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
-import net.minecraft.world.level.levelgen.feature.Feature;
-import net.minecraft.world.level.block.state.BlockState;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.LevelSimulatedReader;
-import net.minecraft.core.BlockPos;
-
-import java.util.function.BiConsumer;
-import java.util.Random;
-import java.util.List;
-
 public class GoblinSwampTrunkDecorator extends TrunkVineDecorator {
+
 	public static final GoblinSwampTrunkDecorator INSTANCE = new GoblinSwampTrunkDecorator();
+
 	public static com.mojang.serialization.Codec<GoblinSwampTrunkDecorator> codec;
 	public static TreeDecoratorType<?> tdt;
+
 	static {
 		codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
 		tdt = new TreeDecoratorType<>(codec);
@@ -40,6 +29,7 @@ public class GoblinSwampTrunkDecorator extends TrunkVineDecorator {
 					biConsumer.accept(blockpos, Blocks.VINE.defaultBlockState());
 				}
 			}
+
 		});
 	}
 }

@@ -33,6 +33,7 @@ import net.mcreator.thewonderland.item.IcyToolsPickaxeItem;
 import net.mcreator.thewonderland.item.IcyToolsHoeItem;
 import net.mcreator.thewonderland.item.IcyToolsAxeItem;
 import net.mcreator.thewonderland.item.IcyItem;
+import net.mcreator.thewonderland.item.HexBallItem;
 import net.mcreator.thewonderland.item.EnchantedDemonicEssenceItem;
 import net.mcreator.thewonderland.item.DemonicEssenceItem;
 import net.mcreator.thewonderland.item.ChocolateItem;
@@ -157,6 +158,8 @@ public class TheWonderlandModItems {
 	public static final RegistryObject<Item> T = block(TheWonderlandModBlocks.T, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> Y = block(TheWonderlandModBlocks.Y, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> U = block(TheWonderlandModBlocks.U, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> PIRATE_CUTLASS = REGISTRY.register("pirate_cutlass", () -> new PirateCutlassItem());
+	public static final RegistryObject<Item> HEX_BALL = REGISTRY.register("hex_ball", () -> new HexBallItem());
 	public static final RegistryObject<Item> LV_2_DEMONIC_SWORD = REGISTRY.register("lv_2_demonic_sword", () -> new Lv2DemonicSwordItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

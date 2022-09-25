@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.thewonderland.entity.ImpEntity;
+import net.mcreator.thewonderland.entity.HexBallEntity;
 import net.mcreator.thewonderland.TheWonderlandMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -25,6 +26,9 @@ public class TheWonderlandModEntities {
 	public static final RegistryObject<EntityType<ImpEntity>> IMP = register("imp",
 			EntityType.Builder.<ImpEntity>of(ImpEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(ImpEntity::new).fireImmune().sized(0.6f, 1.95f));
+	public static final RegistryObject<EntityType<HexBallEntity>> HEX_BALL = register("projectile_hex_ball",
+			EntityType.Builder.<HexBallEntity>of(HexBallEntity::new, MobCategory.MISC).setCustomClientFactory(HexBallEntity::new)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

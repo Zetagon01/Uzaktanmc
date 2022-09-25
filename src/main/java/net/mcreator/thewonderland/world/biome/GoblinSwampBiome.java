@@ -1,41 +1,12 @@
 
 package net.mcreator.thewonderland.world.biome;
 
-import net.minecraft.world.level.levelgen.placement.SurfaceWaterDepthFilter;
-import net.minecraft.world.level.levelgen.placement.RarityFilter;
-import net.minecraft.world.level.levelgen.placement.NoiseThresholdCountPlacement;
-import net.minecraft.world.level.levelgen.placement.InSquarePlacement;
-import net.minecraft.world.level.levelgen.placement.CountPlacement;
-import net.minecraft.world.level.levelgen.placement.BiomeFilter;
-import net.minecraft.world.level.levelgen.feature.trunkplacers.StraightTrunkPlacer;
+import net.minecraftforge.common.BiomeManager;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvider;
-import net.minecraft.world.level.levelgen.feature.foliageplacers.BlobFoliagePlacer;
-import net.minecraft.world.level.levelgen.feature.featuresize.TwoLayersFeatureSize;
-import net.minecraft.world.level.levelgen.feature.configurations.TreeConfiguration;
-import net.minecraft.world.level.levelgen.feature.Feature;
-import net.minecraft.world.level.levelgen.GenerationStep;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.biome.MobSpawnSettings;
-import net.minecraft.world.level.biome.Climate;
-import net.minecraft.world.level.biome.BiomeSpecialEffects;
-import net.minecraft.world.level.biome.BiomeGenerationSettings;
-import net.minecraft.world.level.biome.Biome;
-import net.minecraft.util.valueproviders.ConstantInt;
-import net.minecraft.data.worldgen.placement.PlacementUtils;
-import net.minecraft.data.worldgen.placement.AquaticPlacements;
-import net.minecraft.data.worldgen.features.VegetationFeatures;
-import net.minecraft.data.worldgen.features.FeatureUtils;
-import net.minecraft.data.worldgen.features.AquaticFeatures;
-import net.minecraft.data.worldgen.BiomeDefaultFeatures;
-
-import net.mcreator.thewonderland.world.features.treedecorators.GoblinSwampTrunkDecorator;
-import net.mcreator.thewonderland.world.features.treedecorators.GoblinSwampLeaveDecorator;
-
-import java.util.List;
-
-import com.google.common.collect.ImmutableList;
 
 public class GoblinSwampBiome {
+
 	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.27619047619f, 0.009523809524f),
 			Climate.Parameter.span(0.257142857143f, 0.542857142857f), Climate.Parameter.span(0.207142857143f, 0.492857142857f),
 			Climate.Parameter.span(0.757142857143f, 1.042857142857f), Climate.Parameter.point(0),
@@ -44,37 +15,51 @@ public class GoblinSwampBiome {
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(-16724862).waterFogColor(-16724862)
 				.skyColor(7972607).foliageColorOverride(-13408768).grassColorOverride(-13408768).build();
+
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
-		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PlacementUtils.register("the_wonderland:tree_goblin_swamp",
-				FeatureUtils.register("the_wonderland:tree_goblin_swamp", Feature.TREE,
-						new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(Blocks.OAK_LOG.defaultBlockState()),
-								new StraightTrunkPlacer(3, 2, 0), BlockStateProvider.simple(Blocks.OAK_LEAVES.defaultBlockState()),
-								new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1))
-								.decorators(ImmutableList.of(GoblinSwampLeaveDecorator.INSTANCE, GoblinSwampTrunkDecorator.INSTANCE)).build()),
-				List.of(CountPlacement.of(2), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
-						PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING), BiomeFilter.biome())));
+
+		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
+				PlacementUtils.register("the_wonderland:tree_goblin_swamp",
+						FeatureUtils.register("the_wonderland:tree_goblin_swamp", Feature.TREE,
+								new TreeConfiguration.TreeConfigurationBuilder(BlockStateProvider.simple(Blocks.OAK_LOG.defaultBlockState()),
+										new StraightTrunkPlacer(3, 2, 0), BlockStateProvider.simple(Blocks.OAK_LEAVES.defaultBlockState()),
+										new BlobFoliagePlacer(ConstantInt.of(2), ConstantInt.of(0), 3), new TwoLayersFeatureSize(1, 0, 1))
+										.decorators(ImmutableList.of(GoblinSwampLeaveDecorator.INSTANCE, GoblinSwampTrunkDecorator.INSTANCE
+
+										)).build()),
+						List.of(CountPlacement.of(2), InSquarePlacement.spread(), SurfaceWaterDepthFilter.forMaxDepth(0),
+								PlacementUtils.HEIGHTMAP_OCEAN_FLOOR, PlacementUtils.filteredByBlockSurvival(Blocks.OAK_SAPLING),
+								BiomeFilter.biome())));
+
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("the_wonderland:grass_goblin_swamp", VegetationFeatures.PATCH_GRASS,
 						List.of(NoiseThresholdCountPlacement.of(-0.8D, 5, 7), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP_WORLD_SURFACE,
 								BiomeFilter.biome())));
+
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION, PlacementUtils
 				.register("the_wonderland:seagrass_goblin_swamp", AquaticFeatures.SEAGRASS_SHORT, AquaticPlacements.seagrassPlacement(5)));
+
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("the_wonderland:flower_goblin_swamp", VegetationFeatures.FLOWER_DEFAULT, List.of(CountPlacement.of(1),
 						RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome())));
+
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("the_wonderland:brown_mushroom_goblin_swamp", VegetationFeatures.PATCH_BROWN_MUSHROOM,
 						List.of(CountPlacement.of(3), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP,
 								BiomeFilter.biome())));
+
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("the_wonderland:red_mushroom_goblin_swamp", VegetationFeatures.PATCH_RED_MUSHROOM,
 						List.of(CountPlacement.of(3), RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP,
 								BiomeFilter.biome())));
+
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
 		BiomeDefaultFeatures.addSwampVegetation(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultOres(biomeGenerationSettings);
 		BiomeDefaultFeatures.addSurfaceFreezing(biomeGenerationSettings);
+
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
+
 		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.SWAMP).temperature(0.3f)
 				.downfall(0.7000000000000001f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build())
 				.generationSettings(biomeGenerationSettings.build()).build();
@@ -82,4 +67,5 @@ public class GoblinSwampBiome {
 
 	public static void init() {
 	}
+
 }
