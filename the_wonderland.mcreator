@@ -1428,8 +1428,7 @@
       "sortid": 131,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "pirate_cutlass",
-      "path": "~/Neutral"
+      "registry_name": "pirate_cutlass"
     },
     {
       "name": "HexBall",
@@ -1437,8 +1436,7 @@
       "sortid": 132,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hex_ball",
-      "path": "~/Neutral"
+      "registry_name": "hex_ball"
     },
     {
       "name": "Rcpcall",
@@ -1514,8 +1512,8 @@
     "en_us": {
       "block.the_wonderland.ghost_wood": "Ghost Wood",
       "block.the_wonderland.raw_stone_sugar": "Raw Stone Sugar",
-      "block.the_wonderland.ghost_fence": "Ghost Fence",
       "item.the_wonderland.soulalet_axe": "Soulalet Axe",
+      "block.the_wonderland.ghost_fence": "Ghost Fence",
       "item.the_wonderland.soul_armors_armor_chestplate": "SoulArmors Chestplate",
       "block.the_wonderland.candy_woods_planks": "Candy_Woods Planks",
       "block.the_wonderland.sweet_stone": "Sweet Stone",
@@ -1557,9 +1555,9 @@
       "biome.the_wonderland.ghost_biome": "Ghost Biome",
       "item.the_wonderland.icy": "Icy",
       "item.the_wonderland.soulalet_sword": "Soulalet Sword",
-      "block.the_wonderland.ghost_pressure_plate": "Ghost Pressure Plate",
-      "block.the_wonderland.soul_grass": "Soul Grass Block",
       "item.the_wonderland.candy_tools_pickaxe": "Candy_Tools Pickaxe",
+      "block.the_wonderland.soul_grass": "Soul Grass Block",
+      "block.the_wonderland.ghost_pressure_plate": "Ghost Pressure Plate",
       "item.the_wonderland.candy_ores_dust": "Candy_Ores",
       "block.the_wonderland.demonic_block": "Demonic Block",
       "entity.the_wonderland.imp": "Imp",
@@ -1572,6 +1570,7 @@
       "item.the_wonderland.candy_armor_armor_helmet": "Candy_Armor Helmet",
       "block.the_wonderland.candy_woods_fence": "Candy_Woods Fence",
       "block.the_wonderland.ghost_stone": "Ghost Stone",
+      "item.the_wonderland.lv_2_demonic_sword": "Lv 2 Demonic Sword",
       "item.the_wonderland.candy_armor_armor_boots": "Candy_Armor Boots",
       "block.the_wonderland.souldirtt": "Soul Dirt Block",
       "block.the_wonderland.candy_woods_slab": "Candy_Woods Slab",
@@ -1581,6 +1580,7 @@
       "block.the_wonderland.candy_leaves": "Candy Leaves",
       "item.the_wonderland.candy_armor_armor_chestplate": "Candy_Armor Chestplate",
       "block.the_wonderland.candy_ores_ore": "Candy_Ores Ore",
+      "item.the_wonderland.hex_ball": "Hex Ball",
       "block.the_wonderland.demonic_circle": "Demonic Circle",
       "fluid.the_wonderland.chocolate": "Chocolate",
       "block.the_wonderland.icy_block": "Block of Icy",

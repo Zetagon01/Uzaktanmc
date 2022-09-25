@@ -25,7 +25,6 @@ import net.mcreator.thewonderland.item.SoulaletHoeItem;
 import net.mcreator.thewonderland.item.SoulaletAxeItem;
 import net.mcreator.thewonderland.item.SoulItem;
 import net.mcreator.thewonderland.item.SoulArmorsArmorItem;
-import net.mcreator.thewonderland.item.PirateCutlassItem;
 import net.mcreator.thewonderland.item.Lv2DemonicSwordItem;
 import net.mcreator.thewonderland.item.Lv1DemonSwordItem;
 import net.mcreator.thewonderland.item.IcyToolsSwordItem;

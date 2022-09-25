@@ -17,10 +17,10 @@
     "shootConstantly": false,
     "usageCount": 100,
     "actionSound": {
-      "value": "ambient.cave"
+      "value": "entity.firework.blast_far"
     },
     "hasGlow": true,
-    "animation": "spear",
+    "animation": "bow",
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "bulletPower": 1.0,
